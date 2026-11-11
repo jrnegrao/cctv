@@ -3397,7 +3397,7 @@
       "version": "1.19.0",
       "label": "Texto orientação",
       "config": {
-        "text": "<p style=\"text-align: center;\">Clique numa câmera para ver ao vivo · 🔍 abre o detalhe em tela grande</p>",
+        "text": "<p style=\"text-align: center;\">Clique numa câmera para ver ao vivo · 🔍 abre o detalhe</p>",
         "style": {
           "wrap": true
         },
