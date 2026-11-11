@@ -984,7 +984,8 @@
       "order": [
         "0",
         "1",
-        "2"
+        "2",
+        "3"
       ],
       "content": {
         "0": {
@@ -1055,6 +1056,29 @@
           },
           "isPending": false,
           "widgetId": "widget_402"
+        },
+        "3": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "24px",
+            "top": "88%",
+            "right": "85%",
+            "bottom": "24px",
+            "width": "190px",
+            "height": "40px"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false,
+          "widgetId": "widget_411"
         }
       }
     },
@@ -1064,7 +1088,8 @@
       "order": [
         "0",
         "1",
-        "2"
+        "2",
+        "3"
       ],
       "content": {
         "0": {
@@ -1135,6 +1160,29 @@
           },
           "isPending": false,
           "widgetId": "widget_402"
+        },
+        "3": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "20px",
+            "top": "88%",
+            "right": "85%",
+            "bottom": "20px",
+            "width": "190px",
+            "height": "40px"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false,
+          "widgetId": "widget_411"
         }
       }
     },
@@ -1144,7 +1192,8 @@
       "order": [
         "0",
         "1",
-        "2"
+        "2",
+        "3"
       ],
       "content": {
         "0": {
@@ -1215,6 +1264,29 @@
           },
           "isPending": false,
           "widgetId": "widget_402"
+        },
+        "3": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "12px",
+            "top": "88%",
+            "right": "85%",
+            "bottom": "16px",
+            "width": "190px",
+            "height": "38px"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false,
+          "widgetId": "widget_411"
         }
       }
     },
@@ -4699,6 +4771,100 @@
         }
       },
       "useDataSources": []
+    },
+    "widget_411": {
+      "uri": "widgets/common/button/",
+      "version": "1.19.0",
+      "label": "Central – modo quiosque",
+      "id": "widget_411",
+      "config": {
+        "functionConfig": {
+          "text": "Modo quiosque",
+          "toolTip": "Abrir a grade em tela cheia para TV ou telão (nova aba)",
+          "linkParam": {
+            "linkType": "WEB_ADDRESS",
+            "value": "https://jrnegrao.github.io/cctv/quiosque.html",
+            "openType": "_blank"
+          },
+          "icon": {
+            "data": {
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 20 20\"><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M1.25 2.5h17.5v11.25H1.25zM0 2.5c0-.69.56-1.25 1.25-1.25h17.5c.69 0 1.25.56 1.25 1.25v11.25c0 .69-.56 1.25-1.25 1.25H1.25C.56 15 0 14.44 0 13.75zm3.75 16.25h2.5V17.5h-2.5zm7.5 0h-2.5V17.5h2.5zm2.5 0h2.5V17.5h-2.5z\" clip-rule=\"evenodd\"></path></svg>",
+              "properties": {
+                "filename": "WidgetSectionViewOutlined",
+                "originalName": "outlined/brand/widget-section-view.svg",
+                "path": [
+                  "brand",
+                  "WidgetSectionViewOutlined"
+                ],
+                "inlineSvg": true,
+                "isUploaded": false,
+                "color": "var(--ref-palette-neutral-1100)"
+              }
+            },
+            "position": "LEFT"
+          }
+        },
+        "styleConfig": {
+          "useCustom": true,
+          "customStyle": {
+            "regular": {
+              "background": {
+                "color": "var(--primary)",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "color": "#076fe5",
+                "width": "0px"
+              },
+              "text": {
+                "color": "var(--light)",
+                "size": "14px"
+              },
+              "borderRadius": {
+                "number": [
+                  100,
+                  100,
+                  100,
+                  100
+                ],
+                "unit": "px"
+              },
+              "iconProps": {
+                "color": "#fff",
+                "size": 16
+              }
+            },
+            "hover": {
+              "background": {
+                "color": "var(--primary-600)",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "width": "0px"
+              },
+              "text": {
+                "size": "14px",
+                "color": "var(--light)"
+              },
+              "borderRadius": {
+                "number": [
+                  100,
+                  100,
+                  100,
+                  100
+                ],
+                "unit": "px"
+              },
+              "iconProps": {
+                "size": 14
+              }
+            }
+          }
+        }
+      },
+      "useDataSources": []
     }
   },
   "widgetsManifest": {},
@@ -6078,7 +6244,7 @@
       "index": 0
     }
   },
-  "timestamp": 1794424452421,
+  "timestamp": 1794426411160,
   "header": {
     "layout": {
       "LARGE": "layout_271"
@@ -6097,6 +6263,6 @@
       "primary": "#4463a9"
     }
   },
-  "publishTimestamp": 1794424455035,
+  "publishTimestamp": 1794426419255,
   "mainLocale": "pt-br"
 }
