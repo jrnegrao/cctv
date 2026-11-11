@@ -1,0 +1,22 @@
+{
+  "1777333071372.png": {
+    "svg": "${appResourceUrl}/images/icon_picker_in_setting/1777333071372.png",
+    "properties": {
+      "filename": "1777333071372.png",
+      "originalName": "info.png",
+      "path": "${appResourceUrl}/images/icon_picker_in_setting/1777333071372.png",
+      "isUploaded": true,
+      "inlineSvg": false
+    }
+  },
+  "1786624738018.png": {
+    "svg": "${appResourceUrl}/images/icon_picker_in_setting/1786624738018.png",
+    "properties": {
+      "filename": "1786624738018.png",
+      "originalName": "geoapuc pin.png",
+      "path": "${appResourceUrl}/images/icon_picker_in_setting/1786624738018.png",
+      "isUploaded": true,
+      "inlineSvg": false
+    }
+  }
+}
