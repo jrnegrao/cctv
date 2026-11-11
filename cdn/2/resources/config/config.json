@@ -27,6 +27,20 @@
       "isVisible": true,
       "label": "Central de Monitoramento",
       "header": true
+    },
+    "page_detalhe": {
+      "id": "page_detalhe",
+      "mode": "FIT_WINDOW",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_331",
+        "MEDIUM": "layout_332",
+        "SMALL": "layout_333"
+      },
+      "isDefault": false,
+      "isVisible": false,
+      "label": "Detalhe da câmera",
+      "header": true
     }
   },
   "layouts": {
@@ -859,17 +873,18 @@
       "label": "Cartão mosaico",
       "order": [
         "0",
-        "1"
+        "1",
+        "2"
       ],
       "content": {
         "0": {
           "type": "WIDGET",
           "bbox": {
             "left": "2%",
-            "right": "2%",
+            "right": "26%",
             "top": "0%",
             "bottom": "88%",
-            "width": "96%",
+            "width": "72%",
             "height": "12%"
           },
           "setting": {
@@ -909,6 +924,30 @@
           },
           "isPending": false,
           "widgetId": "widget_398"
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_403",
+          "bbox": {
+            "left": "75%",
+            "right": "2%",
+            "top": "1%",
+            "bottom": "89%",
+            "width": "23%",
+            "height": "10%"
+          },
+          "isPending": false,
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false,
+            "lockParent": true
+          }
         }
       }
     },
@@ -1149,6 +1188,468 @@
           },
           "isPending": false,
           "widgetId": "widget_402"
+        }
+      }
+    },
+    "layout_330": {
+      "type": "FIXED",
+      "label": "Map FixedLayout",
+      "order": [],
+      "content": {}
+    },
+    "layout_331": {
+      "type": "FIXED",
+      "label": "Página Detalhe",
+      "order": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_404",
+          "bbox": {
+            "left": "1.5%",
+            "top": "2%",
+            "width": "66%",
+            "height": "88%",
+            "right": "32.5%",
+            "bottom": "10%"
+          },
+          "isPending": false,
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_405",
+          "bbox": {
+            "left": "69%",
+            "top": "2%",
+            "width": "29.5%",
+            "height": "9%",
+            "right": "1.5%",
+            "bottom": "89%"
+          },
+          "isPending": false,
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_406",
+          "bbox": {
+            "left": "69%",
+            "top": "12%",
+            "width": "29.5%",
+            "height": "27%",
+            "right": "1.5%",
+            "bottom": "61%"
+          },
+          "isPending": false,
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "3": {
+          "type": "WIDGET",
+          "widgetId": "widget_407",
+          "bbox": {
+            "left": "69%",
+            "top": "41%",
+            "width": "29.5%",
+            "height": "49%",
+            "right": "1.5%",
+            "bottom": "10%"
+          },
+          "isPending": false,
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "4": {
+          "type": "WIDGET",
+          "widgetId": "widget_408",
+          "bbox": {
+            "left": "1.5%",
+            "top": "91.5%",
+            "width": "20%",
+            "height": "6.5%",
+            "right": "78.5%",
+            "bottom": "2.0%"
+          },
+          "isPending": false,
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "5": {
+          "type": "WIDGET",
+          "widgetId": "widget_409",
+          "bbox": {
+            "left": "84.5%",
+            "top": "91.5%",
+            "width": "14%",
+            "height": "6.5%",
+            "right": "1.5%",
+            "bottom": "2.0%"
+          },
+          "isPending": false,
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      }
+    },
+    "layout_332": {
+      "type": "FIXED",
+      "label": "Página Detalhe",
+      "order": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_405",
+          "bbox": {
+            "left": "3%",
+            "top": "1%",
+            "width": "94%",
+            "height": "8%",
+            "right": "3%",
+            "bottom": "91%"
+          },
+          "isPending": false,
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_404",
+          "bbox": {
+            "left": "3%",
+            "top": "9%",
+            "width": "94%",
+            "height": "38%",
+            "right": "3%",
+            "bottom": "53%"
+          },
+          "isPending": false,
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_406",
+          "bbox": {
+            "left": "3%",
+            "top": "48%",
+            "width": "94%",
+            "height": "20%",
+            "right": "3%",
+            "bottom": "32%"
+          },
+          "isPending": false,
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "3": {
+          "type": "WIDGET",
+          "widgetId": "widget_407",
+          "bbox": {
+            "left": "3%",
+            "top": "69%",
+            "width": "94%",
+            "height": "22%",
+            "right": "3%",
+            "bottom": "9%"
+          },
+          "isPending": false,
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "4": {
+          "type": "WIDGET",
+          "widgetId": "widget_408",
+          "bbox": {
+            "left": "3%",
+            "top": "92%",
+            "width": "46%",
+            "height": "6.5%",
+            "right": "51%",
+            "bottom": "1.5%"
+          },
+          "isPending": false,
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "5": {
+          "type": "WIDGET",
+          "widgetId": "widget_409",
+          "bbox": {
+            "left": "51%",
+            "top": "92%",
+            "width": "46%",
+            "height": "6.5%",
+            "right": "3%",
+            "bottom": "1.5%"
+          },
+          "isPending": false,
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      }
+    },
+    "layout_333": {
+      "type": "FIXED",
+      "label": "Página Detalhe",
+      "order": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_405",
+          "bbox": {
+            "left": "3%",
+            "top": "1%",
+            "width": "94%",
+            "height": "8%",
+            "right": "3%",
+            "bottom": "91%"
+          },
+          "isPending": false,
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_404",
+          "bbox": {
+            "left": "3%",
+            "top": "9%",
+            "width": "94%",
+            "height": "38%",
+            "right": "3%",
+            "bottom": "53%"
+          },
+          "isPending": false,
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_406",
+          "bbox": {
+            "left": "3%",
+            "top": "48%",
+            "width": "94%",
+            "height": "20%",
+            "right": "3%",
+            "bottom": "32%"
+          },
+          "isPending": false,
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "3": {
+          "type": "WIDGET",
+          "widgetId": "widget_407",
+          "bbox": {
+            "left": "3%",
+            "top": "69%",
+            "width": "94%",
+            "height": "22%",
+            "right": "3%",
+            "bottom": "9%"
+          },
+          "isPending": false,
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "4": {
+          "type": "WIDGET",
+          "widgetId": "widget_408",
+          "bbox": {
+            "left": "3%",
+            "top": "92%",
+            "width": "46%",
+            "height": "6.5%",
+            "right": "51%",
+            "bottom": "1.5%"
+          },
+          "isPending": false,
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "5": {
+          "type": "WIDGET",
+          "widgetId": "widget_409",
+          "bbox": {
+            "left": "51%",
+            "top": "92%",
+            "width": "46%",
+            "height": "6.5%",
+            "right": "3%",
+            "bottom": "1.5%"
+          },
+          "isPending": false,
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
         }
       }
     }
@@ -3348,9 +3849,34 @@
                 "height": 250
               }
             },
-            "enable": false,
+            "enable": true,
             "listLayout": "Auto",
-            "selectionMode": "NONE"
+            "selectionMode": "SINGLE",
+            "backgroundStyle": {
+              "background": {
+                "color": "rgba(1,42,132,0.06)",
+                "fillType": "fill",
+                "image": {
+                  "url": ""
+                }
+              },
+              "border": {
+                "border": {
+                  "type": "solid",
+                  "color": "#1d4fd8",
+                  "width": "2px"
+                }
+              },
+              "borderRadius": {
+                "number": [
+                  12,
+                  12,
+                  12,
+                  12
+                ],
+                "unit": "px"
+              }
+            }
           }
         },
         "style": {
@@ -3515,7 +4041,7 @@
     },
     "widget_402": {
       "uri": "widgets/common/button/",
-      "version": "1.17.0",
+      "version": "1.19.0",
       "label": "🗺 Voltar ao mapa",
       "id": "widget_402",
       "config": {
@@ -3588,6 +4114,450 @@
           }
         }
       }
+    },
+    "widget_403": {
+      "uri": "widgets/common/button/",
+      "label": "Detalhe – ⤢ Ampliar",
+      "config": {
+        "functionConfig": {
+          "text": "⤢ Ampliar",
+          "toolTip": "Abrir esta câmera em tela grande, com informações e mapa",
+          "linkParam": {
+            "linkType": "PAGE",
+            "value": "page_detalhe",
+            "openType": "_self"
+          }
+        },
+        "styleConfig": {
+          "useCustom": true,
+          "customStyle": {
+            "regular": {
+              "background": {
+                "color": "var(--primary)",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "color": "#076fe5",
+                "width": "0px"
+              },
+              "text": {
+                "color": "var(--light)",
+                "size": "12px"
+              },
+              "borderRadius": {
+                "number": [
+                  100,
+                  100,
+                  100,
+                  100
+                ],
+                "unit": "px"
+              },
+              "iconProps": {
+                "color": "#fff",
+                "size": 14
+              }
+            },
+            "hover": {
+              "background": {
+                "color": "var(--primary-600)",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "width": "0px"
+              },
+              "text": {
+                "size": "12px",
+                "color": "var(--light)"
+              },
+              "borderRadius": {
+                "number": [
+                  100,
+                  100,
+                  100,
+                  100
+                ],
+                "unit": "px"
+              },
+              "iconProps": {
+                "size": 14
+              }
+            }
+          }
+        }
+      },
+      "id": "widget_403",
+      "version": "1.19.0"
+    },
+    "widget_404": {
+      "uri": "widgets/common/embed/",
+      "label": "Detalhe – vídeo grande",
+      "config": {
+        "embedType": "url",
+        "expression": "<p><exp data-uniqueid=\"de1aee4b_79fb_4d64_a4f1_dae63cec7471\" data-dsid=\"dataSource_4-19e458c752d-layer-3-selection\" data-expression=\"%7B%22name%22%3A%22%7BURL_PLAYER%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BURL_PLAYER%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-19e458c752d-layer-3-selection%22%2C%22jimuFieldName%22%3A%22url_player%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{URL_PLAYER}﻿﻿</span>﻿</exp></p>",
+        "enableLabel": false,
+        "honorThemeFont": false,
+        "embedCode": "",
+        "autoRefresh": false,
+        "label": "Vídeo"
+      },
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_4-19e458c752d-layer-3-selection",
+          "mainDataSourceId": "dataSource_4-19e458c752d-layer-3",
+          "dataViewId": "selection",
+          "rootDataSourceId": "dataSource_4",
+          "fields": [
+            "url_player"
+          ]
+        }
+      ],
+      "useDataSourcesEnabled": true,
+      "style": {
+        "border": {
+          "type": "solid",
+          "color": "#dfe5ef",
+          "width": "1px"
+        },
+        "borderRadius": {
+          "number": [
+            12,
+            12,
+            12,
+            12
+          ],
+          "unit": "px"
+        }
+      },
+      "id": "widget_404",
+      "version": "1.19.0"
+    },
+    "widget_405": {
+      "uri": "widgets/common/text/",
+      "label": "Detalhe – nome",
+      "config": {
+        "text": "<p><strong style=\"font-size:22px;color:var(--primary);\"><exp data-uniqueid=\"da98e9d7_168e_4930_9578_ad2af0bdf5f7\" data-dsid=\"dataSource_4-19e458c752d-layer-3-selection\" data-expression=\"%7B%22name%22%3A%22%7BDESCRICAO%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BDESCRICAO%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-19e458c752d-layer-3-selection%22%2C%22jimuFieldName%22%3A%22descricao%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{DESCRICAO}﻿﻿</span>﻿</exp></strong></p><p><span style=\"font-size:13px;color:#6b7690;\"><exp data-uniqueid=\"5d657b66_f7d1_41f0_8d4d_29b8a4a88f9d\" data-dsid=\"dataSource_4-19e458c752d-layer-3-selection\" data-expression=\"%7B%22name%22%3A%22%7BBAIRRO%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BBAIRRO%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-19e458c752d-layer-3-selection%22%2C%22jimuFieldName%22%3A%22bairro%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{BAIRRO}﻿﻿</span>﻿</exp></span></p>",
+        "style": {
+          "wrap": true,
+          "verticalAlign": "start"
+        }
+      },
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_4-19e458c752d-layer-3-selection",
+          "mainDataSourceId": "dataSource_4-19e458c752d-layer-3",
+          "dataViewId": "selection",
+          "rootDataSourceId": "dataSource_4",
+          "fields": [
+            "descricao",
+            "bairro"
+          ]
+        }
+      ],
+      "useDataSourcesEnabled": true,
+      "id": "widget_405",
+      "version": "1.19.0"
+    },
+    "widget_406": {
+      "uri": "widgets/common/text/",
+      "label": "Detalhe – informações",
+      "config": {
+        "text": "<p style=\"line-height:1.7;\"><span style=\"font-size:12px;color:#6b7690;\">Status:</span>&nbsp;<strong style=\"font-size:14px;color:#1b2a4a;\"><exp data-uniqueid=\"2142b143_2d37_4c26_9629_fe8e4e98c3a7\" data-dsid=\"dataSource_4-19e458c752d-layer-3-selection\" data-expression=\"%7B%22name%22%3A%22%7BSTATUS%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BSTATUS%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-19e458c752d-layer-3-selection%22%2C%22jimuFieldName%22%3A%22status%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{STATUS}﻿﻿</span>﻿</exp></strong></p><p style=\"line-height:1.7;\"><span style=\"font-size:12px;color:#6b7690;\">Verificado em:</span>&nbsp;<strong style=\"font-size:14px;color:#1b2a4a;\"><exp data-uniqueid=\"8c54f892_ab08_4713_9c72_0f43b411a79a\" data-dsid=\"dataSource_4-19e458c752d-layer-3-selection\" data-expression=\"%7B%22name%22%3A%22%7BULTIMA_VERIFICACAO%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BULTIMA_VERIFICACAO%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-19e458c752d-layer-3-selection%22%2C%22jimuFieldName%22%3A%22ultima_verificacao%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{ULTIMA_VERIFICACAO}﻿﻿</span>﻿</exp></strong></p><p style=\"line-height:1.7;\"><span style=\"font-size:12px;color:#6b7690;\">Tempo de resposta:</span>&nbsp;<strong style=\"font-size:14px;color:#1b2a4a;\"><exp data-uniqueid=\"37b425d5_3bfa_462a_9b05_9f2843f83a04\" data-dsid=\"dataSource_4-19e458c752d-layer-3-selection\" data-expression=\"%7B%22name%22%3A%22%7BTEMPO_RESPOSTA%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BTEMPO_RESPOSTA%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-19e458c752d-layer-3-selection%22%2C%22jimuFieldName%22%3A%22tempo_resposta%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{TEMPO_RESPOSTA}﻿﻿</span>﻿</exp></strong></p><p style=\"line-height:1.7;\"><span style=\"font-size:12px;color:#6b7690;\">Direção (°):</span>&nbsp;<strong style=\"font-size:14px;color:#1b2a4a;\"><exp data-uniqueid=\"62e1f786_a198_4f0b_9c6c_633f4b36105e\" data-dsid=\"dataSource_4-19e458c752d-layer-3-selection\" data-expression=\"%7B%22name%22%3A%22%7BAZIMUTE%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BAZIMUTE%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-19e458c752d-layer-3-selection%22%2C%22jimuFieldName%22%3A%22azimute%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{AZIMUTE}﻿﻿</span>﻿</exp></strong></p><p style=\"line-height:1.7;\"><span style=\"font-size:12px;color:#6b7690;\">Alcance (m):</span>&nbsp;<strong style=\"font-size:14px;color:#1b2a4a;\"><exp data-uniqueid=\"2cc296bd_d600_40c3_bbbd_db603b3f1471\" data-dsid=\"dataSource_4-19e458c752d-layer-3-selection\" data-expression=\"%7B%22name%22%3A%22%7BALCANCE_M%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BALCANCE_M%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-19e458c752d-layer-3-selection%22%2C%22jimuFieldName%22%3A%22alcance_m%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{ALCANCE_M}﻿﻿</span>﻿</exp></strong></p><p style=\"line-height:1.7;\"><span style=\"font-size:12px;color:#6b7690;\">Abertura (°):</span>&nbsp;<strong style=\"font-size:14px;color:#1b2a4a;\"><exp data-uniqueid=\"1f0e851f_5d41_46ec_bcd5_b15128dc65a9\" data-dsid=\"dataSource_4-19e458c752d-layer-3-selection\" data-expression=\"%7B%22name%22%3A%22%7BABERTURA%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BABERTURA%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-19e458c752d-layer-3-selection%22%2C%22jimuFieldName%22%3A%22abertura%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{ABERTURA}﻿﻿</span>﻿</exp></strong></p>",
+        "style": {
+          "wrap": true,
+          "verticalAlign": "start"
+        }
+      },
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_4-19e458c752d-layer-3-selection",
+          "mainDataSourceId": "dataSource_4-19e458c752d-layer-3",
+          "dataViewId": "selection",
+          "rootDataSourceId": "dataSource_4",
+          "fields": [
+            "status",
+            "ultima_verificacao",
+            "tempo_resposta",
+            "azimute",
+            "alcance_m",
+            "abertura"
+          ]
+        }
+      ],
+      "useDataSourcesEnabled": true,
+      "style": {
+        "background": {
+          "color": "#f4f7fc",
+          "fillType": "fill"
+        },
+        "borderRadius": {
+          "number": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "unit": "px"
+        }
+      },
+      "id": "widget_406",
+      "version": "1.19.0"
+    },
+    "widget_407": {
+      "uri": "widgets/arcgis/arcgis-map/",
+      "version": "1.19.0",
+      "config": {
+        "toolConfig": {
+          "canZoom": true,
+          "canHome": true,
+          "canSearch": false,
+          "canNavigation": true,
+          "canLocate": false,
+          "canCompass": false,
+          "canFullScreen": false,
+          "canScaleBar": false
+        },
+        "isUseCustomMapState": false,
+        "initialMapDataSourceID": "dataSource_4",
+        "initialMapState": null,
+        "scaleRange": null
+      },
+      "id": "widget_407",
+      "label": "Detalhe – minimapa",
+      "dataActions": {
+        "showOnMap": {
+          "config": {
+            "isUseCustomSymbol": true,
+            "isOperationalLayer": true,
+            "symbolOption": {
+              "pointSymbol": {
+                "type": "esriSMS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0,
+                "size": 12,
+                "style": "esriSMSCircle",
+                "outline": {
+                  "type": "esriSLS",
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1,
+                  "style": "esriSLSSolid"
+                }
+              },
+              "polylineSymbol": {
+                "type": "esriSLS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "width": 0.75,
+                "style": "esriSLSSolid"
+              },
+              "polygonSymbol": {
+                "type": "esriSFS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1,
+                  "style": "esriSLSSolid"
+                },
+                "style": "esriSFSSolid"
+              }
+            }
+          }
+        }
+      },
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_4",
+          "mainDataSourceId": "dataSource_4"
+        }
+      ],
+      "layouts": {
+        "MapFixedLayout": {
+          "LARGE": "layout_330",
+          "MEDIUM": "layout_330",
+          "SMALL": "layout_330"
+        }
+      }
+    },
+    "widget_408": {
+      "uri": "widgets/common/button/",
+      "label": "Detalhe – ← Voltar à Central",
+      "config": {
+        "functionConfig": {
+          "text": "← Voltar à Central",
+          "toolTip": "Voltar para a grade de câmeras",
+          "linkParam": {
+            "linkType": "PAGE",
+            "value": "page_mosaico",
+            "openType": "_self"
+          }
+        },
+        "styleConfig": {
+          "useCustom": true,
+          "customStyle": {
+            "regular": {
+              "background": {
+                "color": "var(--primary)",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "color": "#076fe5",
+                "width": "0px"
+              },
+              "text": {
+                "color": "var(--light)",
+                "size": "14px"
+              },
+              "borderRadius": {
+                "number": [
+                  100,
+                  100,
+                  100,
+                  100
+                ],
+                "unit": "px"
+              },
+              "iconProps": {
+                "color": "#fff",
+                "size": 14
+              }
+            },
+            "hover": {
+              "background": {
+                "color": "var(--primary-600)",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "width": "0px"
+              },
+              "text": {
+                "size": "14px",
+                "color": "var(--light)"
+              },
+              "borderRadius": {
+                "number": [
+                  100,
+                  100,
+                  100,
+                  100
+                ],
+                "unit": "px"
+              },
+              "iconProps": {
+                "size": 14
+              }
+            }
+          }
+        }
+      },
+      "id": "widget_408",
+      "version": "1.19.0"
+    },
+    "widget_409": {
+      "uri": "widgets/common/button/",
+      "label": "Detalhe – 🗺 Ver no mapa",
+      "config": {
+        "functionConfig": {
+          "text": "🗺 Ver no mapa",
+          "toolTip": "Abrir o mapa principal nesta câmera",
+          "linkParam": {
+            "linkType": "PAGE",
+            "value": "page_0",
+            "openType": "_self"
+          }
+        },
+        "styleConfig": {
+          "useCustom": true,
+          "customStyle": {
+            "regular": {
+              "background": {
+                "color": "var(--primary)",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "color": "#076fe5",
+                "width": "0px"
+              },
+              "text": {
+                "color": "var(--light)",
+                "size": "14px"
+              },
+              "borderRadius": {
+                "number": [
+                  100,
+                  100,
+                  100,
+                  100
+                ],
+                "unit": "px"
+              },
+              "iconProps": {
+                "color": "#fff",
+                "size": 14
+              }
+            },
+            "hover": {
+              "background": {
+                "color": "var(--primary-600)",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "width": "0px"
+              },
+              "text": {
+                "size": "14px",
+                "color": "var(--light)"
+              },
+              "borderRadius": {
+                "number": [
+                  100,
+                  100,
+                  100,
+                  100
+                ],
+                "unit": "px"
+              },
+              "iconProps": {
+                "size": 14
+              }
+            }
+          }
+        }
+      },
+      "id": "widget_409",
+      "version": "1.19.0"
     }
   },
   "widgetsManifest": {},
@@ -3773,6 +4743,81 @@
           }
         }
       ]
+    },
+    "messageConfig_mosaico_detalhe": {
+      "id": "messageConfig_mosaico_detalhe",
+      "widgetId": "widget_399",
+      "messageType": "DATA_RECORDS_SELECTION_CHANGE",
+      "actions": [
+        {
+          "actionId": "widget_407-zoomToFeature-1794418984503",
+          "widgetId": "widget_407",
+          "messageWidgetId": "widget_399",
+          "actionName": "zoomToFeature",
+          "description": null,
+          "version": "1.19.0",
+          "config": {
+            "useDataSource": {
+              "dataSourceId": "dataSource_4-19e458c752d-layer-3",
+              "mainDataSourceId": "dataSource_4-19e458c752d-layer-3",
+              "rootDataSourceId": "dataSource_4"
+            },
+            "useDataSources": [
+              {
+                "dataSourceId": "dataSource_4-19e458c752d-layer-3",
+                "mainDataSourceId": "dataSource_4-19e458c752d-layer-3",
+                "rootDataSourceId": "dataSource_4"
+              }
+            ],
+            "goToInitialMapExtentWhenSelectionCleared": false,
+            "useAnyTriggerData": true
+          }
+        },
+        {
+          "actionId": "widget_407-flash-1794418984504",
+          "widgetId": "widget_407",
+          "messageWidgetId": "widget_399",
+          "actionName": "flash",
+          "description": null,
+          "version": "1.19.0",
+          "config": {
+            "useAnyTriggerData": true,
+            "messageUseDataSource": {
+              "dataSourceId": "dataSource_4-19e458c752d-layer-3",
+              "mainDataSourceId": "dataSource_4-19e458c752d-layer-3",
+              "rootDataSourceId": "dataSource_4"
+            },
+            "actionUseDataSource": null,
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true,
+            "connectionType": "SET_CUSTOM_FIELDS"
+          }
+        },
+        {
+          "actionId": "widget_2-zoomToFeature-1794418984505",
+          "widgetId": "widget_2",
+          "messageWidgetId": "widget_399",
+          "actionName": "zoomToFeature",
+          "description": null,
+          "version": "1.19.0",
+          "config": {
+            "useDataSource": {
+              "dataSourceId": "dataSource_4-19e458c752d-layer-3",
+              "mainDataSourceId": "dataSource_4-19e458c752d-layer-3",
+              "rootDataSourceId": "dataSource_4"
+            },
+            "useDataSources": [
+              {
+                "dataSourceId": "dataSource_4-19e458c752d-layer-3",
+                "mainDataSourceId": "dataSource_4-19e458c752d-layer-3",
+                "rootDataSourceId": "dataSource_4"
+              }
+            ],
+            "goToInitialMapExtentWhenSelectionCleared": false,
+            "useAnyTriggerData": true
+          }
+        }
+      ]
     }
   },
   "pageStructure": [
@@ -3781,17 +4826,13 @@
     },
     {
       "page_mosaico": []
+    },
+    {
+      "page_detalhe": []
     }
   ],
   "attributes": {
-    "portalUrl": "https://geo.apucarana.pr.gov.br/portal",
-    "isWebTier": false,
-    "clientId": "",
-    "express": false,
-    "title": "Central de Monitoramento – Apucarana",
-    "description": "",
-    "type": "Web Experience",
-    "thumbnail": null
+    "portalUrl": "https://geo.apucarana.pr.gov.br/portal"
   },
   "sharedThemeVariables": {
     "header": {},
@@ -4865,7 +5906,7 @@
       "index": 0
     }
   },
-  "timestamp": 1794415712136,
+  "timestamp": 1794419511907,
   "header": {
     "layout": {
       "LARGE": "layout_271"
@@ -4884,6 +5925,6 @@
       "primary": "#4463a9"
     }
   },
-  "publishTimestamp": 1794415714522,
+  "publishTimestamp": 1792674991883,
   "mainLocale": "pt-br"
 }
