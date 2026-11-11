@@ -3355,7 +3355,7 @@
       "label": "Embutido",
       "config": {
         "embedType": "url",
-        "expression": "<p><exp data-uniqueid=\"797893c9_b491_8704_725c_4ae2a3e3c7e3\" data-dsid=\"dataSource_4-19e458c752d-layer-3-selection\" data-expression=\"%7B%22name%22%3A%22%7BCCTV%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BCCTV%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-19e458c752d-layer-3-selection%22%2C%22jimuFieldName%22%3A%22cctv%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿{URL_Player}﻿﻿﻿﻿﻿</span>﻿</exp></p>",
+        "expression": "<p><exp data-uniqueid=\"797893c9_b491_8704_725c_4ae2a3e3c7e3\" data-dsid=\"dataSource_4-19e458c752d-layer-3-selection\" data-expression=\"%7B%22name%22%3A%22%7BURL_PLAYER%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BURL_PLAYER%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-19e458c752d-layer-3-selection%22%2C%22jimuFieldName%22%3A%22url_player%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿{URL_PLAYER}﻿﻿﻿﻿﻿</span>﻿</exp></p>",
         "enableLabel": true,
         "honorThemeFont": false,
         "embedCode": "",
@@ -3370,7 +3370,7 @@
           "rootDataSourceId": "dataSource_4",
           "dataViewId": "selection",
           "fields": [
-            "URL_Player"
+            "url_player"
           ]
         }
       ],
@@ -3397,7 +3397,7 @@
       "version": "1.19.0",
       "label": "Texto orientação",
       "config": {
-        "text": "<p style=\"text-align: center;\">Clique numa câmera para ver ao vivo · 🔍 abre o detalhe em tela grande</p>",
+        "text": "<p style=\"text-align: center;\">Clique numa câmera para ver ao vivo · 🔍 abre o detalhe</p>",
         "style": {
           "wrap": true
         },
@@ -4147,12 +4147,30 @@
       "label": "Detalhe – 🔍 Detalhar",
       "config": {
         "functionConfig": {
-          "text": "🔍 Detalhar",
+          "text": "Detalhar",
           "toolTip": "Abrir esta câmera em tela grande, com informações e mapa",
           "linkParam": {
             "linkType": "PAGE",
             "value": "page_detalhe",
             "openType": "_self"
+          },
+          "textExpression": null,
+          "icon": {
+            "data": {
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0m-1.27 4.936a6.5 6.5 0 1 1 .707-.707l4.136 4.137a.5.5 0 1 1-.707.707z\" clip-rule=\"evenodd\"></path></svg>",
+              "properties": {
+                "filename": "Pesquisar",
+                "originalName": "outlined/editor/search.svg",
+                "path": [
+                  "generalAndArrows",
+                  "search"
+                ],
+                "inlineSvg": true,
+                "isUploaded": false,
+                "color": "var(--ref-palette-neutral-1100)"
+              }
+            },
+            "position": "LEFT"
           }
         },
         "styleConfig": {
@@ -4183,7 +4201,7 @@
               },
               "iconProps": {
                 "color": "#fff",
-                "size": 14
+                "size": 16
               }
             },
             "hover": {
@@ -4216,7 +4234,8 @@
         }
       },
       "id": "widget_403",
-      "version": "1.19.0"
+      "version": "1.19.0",
+      "useDataSources": []
     },
     "widget_404": {
       "uri": "widgets/common/embed/",
@@ -4593,12 +4612,30 @@
       "label": "Lista – lupa detalhar",
       "config": {
         "functionConfig": {
-          "text": "🔍",
+          "text": "",
           "toolTip": "Detalhar câmera",
           "linkParam": {
             "linkType": "PAGE",
             "value": "page_detalhe",
             "openType": "_self"
+          },
+          "textExpression": null,
+          "icon": {
+            "data": {
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0m-1.27 4.936a6.5 6.5 0 1 1 .707-.707l4.136 4.137a.5.5 0 1 1-.707.707z\" clip-rule=\"evenodd\"></path></svg>",
+              "properties": {
+                "filename": "Pesquisar",
+                "originalName": "outlined/editor/search.svg",
+                "path": [
+                  "generalAndArrows",
+                  "search"
+                ],
+                "inlineSvg": true,
+                "isUploaded": false,
+                "color": "var(--ref-palette-neutral-1100)"
+              }
+            },
+            "position": "LEFT"
           }
         },
         "styleConfig": {
@@ -4629,7 +4666,7 @@
               },
               "iconProps": {
                 "color": "#fff",
-                "size": 14
+                "size": 16
               }
             },
             "hover": {
@@ -4660,7 +4697,8 @@
             }
           }
         }
-      }
+      },
+      "useDataSources": []
     }
   },
   "widgetsManifest": {},
@@ -4959,7 +4997,14 @@
     }
   ],
   "attributes": {
-    "portalUrl": "https://geo.apucarana.pr.gov.br/portal"
+    "portalUrl": "https://geo.apucarana.pr.gov.br/portal",
+    "isWebTier": false,
+    "clientId": "",
+    "express": false,
+    "title": "Central de Monitoramento – Apucarana",
+    "description": "Central de Monitoramento de câmeras do GeoAPUC – prévia para validação.",
+    "type": "Web Experience",
+    "thumbnail": null
   },
   "sharedThemeVariables": {
     "header": {},
@@ -6033,7 +6078,7 @@
       "index": 0
     }
   },
-  "timestamp": 1794422456858,
+  "timestamp": 1794424452421,
   "header": {
     "layout": {
       "LARGE": "layout_271"
@@ -6052,6 +6097,6 @@
       "primary": "#4463a9"
     }
   },
-  "publishTimestamp": 1792674991883,
+  "publishTimestamp": 1794424455035,
   "mainLocale": "pt-br"
 }
