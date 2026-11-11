@@ -471,8 +471,8 @@
             "right": "3%",
             "width": "94%",
             "top": "53%",
-            "bottom": "7%",
-            "height": "40%"
+            "bottom": "1%",
+            "height": "46%"
           },
           "setting": {
             "autoProps": {
@@ -514,37 +514,13 @@
             },
             "vCenter": false
           }
-        },
-        "6": {
-          "type": "WIDGET",
-          "widgetId": "widget_410",
-          "isPending": false,
-          "bbox": {
-            "left": "3%",
-            "right": "3%",
-            "width": "94%",
-            "top": "94%",
-            "bottom": "1%",
-            "height": "5%"
-          },
-          "setting": {
-            "autoProps": {
-              "left": true,
-              "right": false,
-              "top": true,
-              "bottom": false
-            },
-            "vCenter": false,
-            "hCenter": false
-          }
         }
       },
       "order": [
         "0",
         "3",
         "4",
-        "5",
-        "6"
+        "5"
       ]
     },
     "layout_313": {
@@ -584,9 +560,9 @@
           "bbox": {
             "left": "17%",
             "top": "5px",
-            "width": "57%",
+            "width": "47%",
             "height": "26px",
-            "right": "26%",
+            "right": "36%",
             "bottom": "29px"
           },
           "setting": {
@@ -610,9 +586,9 @@
           "bbox": {
             "left": "17%",
             "top": "30px",
-            "width": "57%",
+            "width": "47%",
             "height": "24px",
-            "right": "26%",
+            "right": "36%",
             "bottom": "6px"
           },
           "setting": {
@@ -681,6 +657,32 @@
             }
           },
           "isPending": false
+        },
+        "5": {
+          "type": "WIDGET",
+          "widgetId": "widget_410",
+          "isPending": false,
+          "bbox": {
+            "left": "65%",
+            "width": "8%",
+            "right": "27%",
+            "top": "15px",
+            "height": "30px",
+            "bottom": "15px"
+          },
+          "setting": {
+            "lockParent": true,
+            "vCenter": false,
+            "hCenter": false,
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false,
+              "width": "CUSTOM",
+              "height": "CUSTOM"
+            }
+          }
         }
       },
       "order": [
@@ -688,7 +690,8 @@
         "1",
         "2",
         "3",
-        "4"
+        "4",
+        "5"
       ],
       "label": "Padrão"
     },
@@ -3394,7 +3397,7 @@
       "version": "1.19.0",
       "label": "Texto orientação",
       "config": {
-        "text": "<p style=\"text-align:center;\"><span style=\"font-size:12px;color:#6b7280;\">Selecione uma câmera na lista ou no mapa para ver a transmissão ao vivo.</span></p>",
+        "text": "<p style=\"text-align: center;\">Clique numa câmera para ver ao vivo · 🔍 abre o detalhe em tela grande</p>",
         "style": {
           "wrap": true
         },
@@ -3981,7 +3984,7 @@
       "label": "Mosaico – título",
       "id": "widget_400",
       "config": {
-        "text": "<p style=\"text-align:center;line-height:1.3;\"><strong style=\"font-size:20px;color:var(--primary);\">Central de Monitoramento</strong></p><p style=\"text-align:center;\"><span style=\"font-size:12px;color:#6b7280;\">Câmeras online, ao vivo. A grade se atualiza sozinha conforme o status de cada câmera.</span></p>",
+        "text": "<p style=\"line-height: 1.3; text-align: center;\"><strong style=\"color: var(--primary); font-size: 20px;\">Central de Monitoramento</strong></p><p style=\"text-align: center;\">Câmeras online, ao vivo · 🔍 Detalhar abre a câmera em tela grande</p>",
         "style": {
           "wrap": true
         }
@@ -4141,10 +4144,10 @@
     },
     "widget_403": {
       "uri": "widgets/common/button/",
-      "label": "Detalhe – ⤢ Ampliar",
+      "label": "Detalhe – 🔍 Detalhar",
       "config": {
         "functionConfig": {
-          "text": "⤢ Ampliar",
+          "text": "🔍 Detalhar",
           "toolTip": "Abrir esta câmera em tela grande, com informações e mapa",
           "linkParam": {
             "linkType": "PAGE",
@@ -4587,11 +4590,11 @@
       "uri": "widgets/common/button/",
       "version": "1.19.0",
       "id": "widget_410",
-      "label": "Painel – abrir em tela grande",
+      "label": "Lista – lupa detalhar",
       "config": {
         "functionConfig": {
-          "text": "⤢ Abrir em tela grande",
-          "toolTip": "Abrir a câmera selecionada em tela grande, com informações e minimapa",
+          "text": "🔍",
+          "toolTip": "Detalhar câmera",
           "linkParam": {
             "linkType": "PAGE",
             "value": "page_detalhe",
@@ -4613,7 +4616,7 @@
               },
               "text": {
                 "color": "var(--light)",
-                "size": "14px"
+                "size": "15px"
               },
               "borderRadius": {
                 "number": [
@@ -4639,7 +4642,7 @@
                 "width": "0px"
               },
               "text": {
-                "size": "14px",
+                "size": "15px",
                 "color": "var(--light)"
               },
               "borderRadius": {
@@ -4956,14 +4959,7 @@
     }
   ],
   "attributes": {
-    "portalUrl": "https://geo.apucarana.pr.gov.br/portal",
-    "isWebTier": false,
-    "clientId": "",
-    "express": false,
-    "title": "Central de Monitoramento – Apucarana",
-    "description": "Central de Monitoramento de câmeras do GeoAPUC – prévia para validação.v1",
-    "type": "Web Experience",
-    "thumbnail": null
+    "portalUrl": "https://geo.apucarana.pr.gov.br/portal"
   },
   "sharedThemeVariables": {
     "header": {},
@@ -6037,7 +6033,7 @@
       "index": 0
     }
   },
-  "timestamp": 1794420885724,
+  "timestamp": 1794422456858,
   "header": {
     "layout": {
       "LARGE": "layout_271"
@@ -6056,6 +6052,6 @@
       "primary": "#4463a9"
     }
   },
-  "publishTimestamp": 1794420888164,
+  "publishTimestamp": 1792674991883,
   "mainLocale": "pt-br"
 }
