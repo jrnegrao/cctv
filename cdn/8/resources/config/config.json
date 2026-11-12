@@ -1065,7 +1065,7 @@
             "top": "88%",
             "right": "85%",
             "bottom": "24px",
-            "width": "190px",
+            "width": "210px",
             "height": "40px"
           },
           "setting": {
@@ -1192,7 +1192,7 @@
             "top": "88%",
             "right": "85%",
             "bottom": "20px",
-            "width": "190px",
+            "width": "210px",
             "height": "40px"
           },
           "setting": {
@@ -1296,7 +1296,7 @@
             "top": "88%",
             "right": "85%",
             "bottom": "16px",
-            "width": "190px",
+            "width": "210px",
             "height": "38px"
           },
           "setting": {
@@ -4805,15 +4805,15 @@
     "widget_411": {
       "uri": "widgets/common/button/",
       "version": "1.19.0",
-      "label": "Central – modo quiosque",
+      "label": "Central – exibir no telão",
       "id": "widget_411",
       "config": {
         "functionConfig": {
-          "text": "Modo quiosque",
+          "text": "Exibir no telão",
           "toolTip": "Abrir a grade em tela cheia para TV ou telão (nova aba)",
           "linkParam": {
             "linkType": "WEB_ADDRESS",
-            "value": "https://jrnegrao.github.io/cctv/quiosque.html",
+            "value": "https://jrnegrao.github.io/cctv/telao.html",
             "openType": "_blank"
           },
           "icon": {
@@ -5287,14 +5287,7 @@
     }
   ],
   "attributes": {
-    "portalUrl": "https://geo.apucarana.pr.gov.br/portal",
-    "isWebTier": false,
-    "clientId": "",
-    "express": false,
-    "title": "Central de Monitoramento – Apucarana",
-    "description": "Central de Monitoramento de câmeras do GeoAPUC – prévia para validação.v1",
-    "type": "Web Experience",
-    "thumbnail": null
+    "portalUrl": "https://geo.apucarana.pr.gov.br/portal"
   },
   "sharedThemeVariables": {
     "header": {},
@@ -6368,7 +6361,7 @@
       "index": 0
     }
   },
-  "timestamp": 1794492601188,
+  "timestamp": 1794493109031,
   "header": {
     "layout": {
       "LARGE": "layout_271"
@@ -6387,6 +6380,6 @@
       "primary": "#4463a9"
     }
   },
-  "publishTimestamp": 1794492602278,
+  "publishTimestamp": 1792674991883,
   "mainLocale": "pt-br"
 }
