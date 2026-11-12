@@ -982,6 +982,7 @@
       "type": "FIXED",
       "label": "Página Mosaico",
       "order": [
+        "4",
         "0",
         "1",
         "2",
@@ -1015,10 +1016,10 @@
           "type": "WIDGET",
           "bbox": {
             "left": "1.5%",
-            "right": "1.5%",
+            "right": "31.5%",
             "top": "9%",
             "bottom": "1%",
-            "width": "97%",
+            "width": "67%",
             "height": "90%"
           },
           "setting": {
@@ -1079,6 +1080,29 @@
           },
           "isPending": false,
           "widgetId": "widget_411"
+        },
+        "4": {
+          "type": "WIDGET",
+          "widgetId": "widget_412",
+          "isPending": false,
+          "bbox": {
+            "left": "69.5%",
+            "width": "29%",
+            "right": "1.5%",
+            "top": "9%",
+            "height": "80%",
+            "bottom": "8%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
         }
       }
     },
@@ -1751,6 +1775,12 @@
           }
         }
       }
+    },
+    "layout_334": {
+      "type": "FIXED",
+      "label": "Map FixedLayout",
+      "order": [],
+      "content": {}
     }
   },
   "exbVersion": "1.19.0",
@@ -4865,6 +4895,57 @@
         }
       },
       "useDataSources": []
+    },
+    "widget_412": {
+      "uri": "widgets/arcgis/arcgis-map/",
+      "version": "1.19.0",
+      "config": {
+        "toolConfig": {
+          "canZoom": true,
+          "canHome": true,
+          "canNavigation": true,
+          "canCompass": false,
+          "canSearch": false,
+          "canLocate": false,
+          "canFullScreen": false,
+          "canScaleBar": false
+        },
+        "isUseCustomMapState": false,
+        "initialMapDataSourceID": "dataSource_4",
+        "initialMapState": null,
+        "scaleRange": null
+      },
+      "id": "widget_412",
+      "layouts": {
+        "MapFixedLayout": {
+          "LARGE": "layout_334",
+          "MEDIUM": "layout_334",
+          "SMALL": "layout_334"
+        }
+      },
+      "label": "Central – mapa",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_4",
+          "mainDataSourceId": "dataSource_4"
+        }
+      ],
+      "style": {
+        "border": {
+          "type": "solid",
+          "color": "#dfe5ef",
+          "width": "1px"
+        },
+        "borderRadius": {
+          "number": [
+            12,
+            12,
+            12,
+            12
+          ],
+          "unit": "px"
+        }
+      }
     }
   },
   "widgetsManifest": {},
@@ -5147,6 +5228,49 @@
             "goToInitialMapExtentWhenSelectionCleared": false,
             "useAnyTriggerData": true
           }
+        },
+        {
+          "actionId": "widget_412-panTo-1794492523804",
+          "widgetId": "widget_412",
+          "messageWidgetId": "widget_399",
+          "actionName": "panTo",
+          "description": null,
+          "version": "1.19.0",
+          "config": {
+            "useDataSource": {
+              "dataSourceId": "dataSource_4-19e458c752d-layer-3",
+              "mainDataSourceId": "dataSource_4-19e458c752d-layer-3",
+              "rootDataSourceId": "dataSource_4"
+            },
+            "useDataSources": [
+              {
+                "dataSourceId": "dataSource_4-19e458c752d-layer-3",
+                "mainDataSourceId": "dataSource_4-19e458c752d-layer-3",
+                "rootDataSourceId": "dataSource_4"
+              }
+            ],
+            "useAnyTriggerData": true
+          }
+        },
+        {
+          "actionId": "widget_412-flash-1794492523805",
+          "widgetId": "widget_412",
+          "messageWidgetId": "widget_399",
+          "actionName": "flash",
+          "description": null,
+          "version": "1.19.0",
+          "config": {
+            "useAnyTriggerData": true,
+            "messageUseDataSource": {
+              "dataSourceId": "dataSource_4-19e458c752d-layer-3",
+              "mainDataSourceId": "dataSource_4-19e458c752d-layer-3",
+              "rootDataSourceId": "dataSource_4"
+            },
+            "actionUseDataSource": null,
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true,
+            "connectionType": "SET_CUSTOM_FIELDS"
+          }
         }
       ]
     }
@@ -5168,7 +5292,7 @@
     "clientId": "",
     "express": false,
     "title": "Central de Monitoramento – Apucarana",
-    "description": "Central de Monitoramento de câmeras do GeoAPUC – prévia para validação.",
+    "description": "Central de Monitoramento de câmeras do GeoAPUC – prévia para validação.v1",
     "type": "Web Experience",
     "thumbnail": null
   },
@@ -6244,7 +6368,7 @@
       "index": 0
     }
   },
-  "timestamp": 1794426411160,
+  "timestamp": 1794492601188,
   "header": {
     "layout": {
       "LARGE": "layout_271"
@@ -6263,6 +6387,6 @@
       "primary": "#4463a9"
     }
   },
-  "publishTimestamp": 1794426419255,
+  "publishTimestamp": 1794492602278,
   "mainLocale": "pt-br"
 }
