@@ -33,6 +33,9 @@
              font:600 15px "Avenir Next","Segoe UI",Arial,sans-serif; box-shadow:0 4px 16px rgba(0,0,0,.35); cursor:pointer; }
   #btnTela:hover { background:#eaf0fb; }
   #erro { color:#ffd2cf; display:none; }
+  #btnVoltar { border:1px solid rgba(255,255,255,.55); background:transparent; color:#fff; border-radius:999px; padding:5px 14px;
+               font:600 13px "Avenir Next","Segoe UI",Arial,sans-serif; cursor:pointer; white-space:nowrap; }
+  #btnVoltar:hover { background:rgba(255,255,255,.15); }
 </style>
 </head>
 <body>
@@ -41,6 +44,7 @@
 <div id="aviso">Nenhuma câmera online no momento.</div>
 <div id="rodape">
   <div class="marca">GeoAPUC<small>Central de Monitoramento – Apucarana</small></div>
+  <button id="btnVoltar" type="button" title="Voltar para o sistema de monitoramento">← Voltar ao sistema</button>
   <div class="esp"></div>
   <div class="info" id="erro">⚠ sem conexão com o Portal, mostrando a última lista</div>
   <div class="info" id="contagem"></div>
@@ -129,7 +133,13 @@
   var btn = document.getElementById("btnTela");
   btn.onclick = function () { var el = document.documentElement; (el.requestFullscreen || el.webkitRequestFullscreen || function(){}).call(el); };
   document.addEventListener("fullscreenchange", function () { btn.style.display = document.fullscreenElement ? "none" : "block"; });
-  if (q.get("botao") === "nao") btn.style.display = "none";
+  // voltar ao sistema: fecha a aba se foi aberta pelo app; senão abre o sistema aqui mesmo
+  var voltar = document.getElementById("btnVoltar");
+  voltar.onclick = function () {
+    try { if (window.opener && !window.opener.closed) { window.close(); } } catch (e) {}
+    setTimeout(function () { location.href = "./?locale=pt-br"; }, 250);
+  };
+  if (q.get("botao") === "nao") { btn.style.display = "none"; voltar.style.display = "none"; }
 
   // esconde o cursor parado
   var t0; function mexeu() { document.body.classList.remove("ocioso"); clearTimeout(t0); t0 = setTimeout(function(){ document.body.classList.add("ocioso"); }, 3000); }
