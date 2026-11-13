@@ -4086,7 +4086,7 @@
       "label": "Mosaico – título",
       "id": "widget_400",
       "config": {
-        "text": "<p style=\"line-height: 1.3; text-align: center;\"><strong style=\"color: var(--primary); font-size: 20px;\">Central de Monitoramento</strong></p><p style=\"text-align: center;\">Câmeras online, ao vivo · 🔍 Detalhar abre a câmera em tela grande</p>",
+        "text": "<p style=\"line-height: 1.3; text-align: center;\"><strong style=\"color: var(--primary); font-size: 20px;\">Central de Monitoramento</strong></p><p style=\"text-align:center;\"><span style=\"font-size:12px;color:#6b7280;\">Câmeras online, ao vivo · 🔍 Detalhar abre em tela grande · ⋮ → Picture-in-picture deixa o vídeo flutuando na tela</span></p>",
         "style": {
           "wrap": true
         }
@@ -4412,7 +4412,7 @@
       "uri": "widgets/common/text/",
       "label": "Detalhe – informações",
       "config": {
-        "text": "<p style=\"line-height:1.7;\"><span style=\"font-size:12px;color:#6b7690;\">Status:</span>&nbsp;<strong style=\"font-size:14px;color:#1b2a4a;\"><exp data-uniqueid=\"2142b143_2d37_4c26_9629_fe8e4e98c3a7\" data-dsid=\"dataSource_4-19e458c752d-layer-3-selection\" data-expression=\"%7B%22name%22%3A%22%7BSTATUS%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BSTATUS%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-19e458c752d-layer-3-selection%22%2C%22jimuFieldName%22%3A%22status%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{STATUS}﻿﻿</span>﻿</exp></strong></p><p style=\"line-height:1.7;\"><span style=\"font-size:12px;color:#6b7690;\">Verificado em:</span>&nbsp;<strong style=\"font-size:14px;color:#1b2a4a;\"><exp data-uniqueid=\"8c54f892_ab08_4713_9c72_0f43b411a79a\" data-dsid=\"dataSource_4-19e458c752d-layer-3-selection\" data-expression=\"%7B%22name%22%3A%22%7BULTIMA_VERIFICACAO%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BULTIMA_VERIFICACAO%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-19e458c752d-layer-3-selection%22%2C%22jimuFieldName%22%3A%22ultima_verificacao%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{ULTIMA_VERIFICACAO}﻿﻿</span>﻿</exp></strong></p><p style=\"line-height:1.7;\"><span style=\"font-size:12px;color:#6b7690;\">Tempo de resposta:</span>&nbsp;<strong style=\"font-size:14px;color:#1b2a4a;\"><exp data-uniqueid=\"37b425d5_3bfa_462a_9b05_9f2843f83a04\" data-dsid=\"dataSource_4-19e458c752d-layer-3-selection\" data-expression=\"%7B%22name%22%3A%22%7BTEMPO_RESPOSTA%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BTEMPO_RESPOSTA%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-19e458c752d-layer-3-selection%22%2C%22jimuFieldName%22%3A%22tempo_resposta%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{TEMPO_RESPOSTA}﻿﻿</span>﻿</exp></strong></p><p style=\"line-height:1.7;\"><span style=\"font-size:12px;color:#6b7690;\">Direção (°):</span>&nbsp;<strong style=\"font-size:14px;color:#1b2a4a;\"><exp data-uniqueid=\"62e1f786_a198_4f0b_9c6c_633f4b36105e\" data-dsid=\"dataSource_4-19e458c752d-layer-3-selection\" data-expression=\"%7B%22name%22%3A%22%7BAZIMUTE%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BAZIMUTE%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-19e458c752d-layer-3-selection%22%2C%22jimuFieldName%22%3A%22azimute%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{AZIMUTE}﻿﻿</span>﻿</exp></strong></p><p style=\"line-height:1.7;\"><span style=\"font-size:12px;color:#6b7690;\">Alcance (m):</span>&nbsp;<strong style=\"font-size:14px;color:#1b2a4a;\"><exp data-uniqueid=\"2cc296bd_d600_40c3_bbbd_db603b3f1471\" data-dsid=\"dataSource_4-19e458c752d-layer-3-selection\" data-expression=\"%7B%22name%22%3A%22%7BALCANCE_M%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BALCANCE_M%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-19e458c752d-layer-3-selection%22%2C%22jimuFieldName%22%3A%22alcance_m%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{ALCANCE_M}﻿﻿</span>﻿</exp></strong></p><p style=\"line-height:1.7;\"><span style=\"font-size:12px;color:#6b7690;\">Abertura (°):</span>&nbsp;<strong style=\"font-size:14px;color:#1b2a4a;\"><exp data-uniqueid=\"1f0e851f_5d41_46ec_bcd5_b15128dc65a9\" data-dsid=\"dataSource_4-19e458c752d-layer-3-selection\" data-expression=\"%7B%22name%22%3A%22%7BABERTURA%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BABERTURA%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-19e458c752d-layer-3-selection%22%2C%22jimuFieldName%22%3A%22abertura%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{ABERTURA}﻿﻿</span>﻿</exp></strong></p>",
+        "text": "<p style=\"line-height:1.7;\"><span style=\"font-size:12px;color:#6b7690;\">Status:</span>&nbsp;<strong style=\"font-size:14px;color:#1b2a4a;\"><exp data-uniqueid=\"2142b143_2d37_4c26_9629_fe8e4e98c3a7\" data-dsid=\"dataSource_4-19e458c752d-layer-3-selection\" data-expression=\"%7B%22name%22%3A%22%7BSTATUS%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BSTATUS%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-19e458c752d-layer-3-selection%22%2C%22jimuFieldName%22%3A%22status%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{STATUS}﻿﻿</span>﻿</exp></strong></p><p style=\"line-height:1.7;\"><span style=\"font-size:12px;color:#6b7690;\">Verificado em:</span>&nbsp;<strong style=\"font-size:14px;color:#1b2a4a;\"><exp data-uniqueid=\"8c54f892_ab08_4713_9c72_0f43b411a79a\" data-dsid=\"dataSource_4-19e458c752d-layer-3-selection\" data-expression=\"%7B%22name%22%3A%22%7BULTIMA_VERIFICACAO%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BULTIMA_VERIFICACAO%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-19e458c752d-layer-3-selection%22%2C%22jimuFieldName%22%3A%22ultima_verificacao%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{ULTIMA_VERIFICACAO}﻿﻿</span>﻿</exp></strong></p>",
         "style": {
           "wrap": true,
           "verticalAlign": "start"
@@ -4426,11 +4426,7 @@
           "rootDataSourceId": "dataSource_4",
           "fields": [
             "status",
-            "ultima_verificacao",
-            "tempo_resposta",
-            "azimute",
-            "alcance_m",
-            "abertura"
+            "ultima_verificacao"
           ]
         }
       ],
@@ -6361,7 +6357,7 @@
       "index": 0
     }
   },
-  "timestamp": 1794493109031,
+  "timestamp": 1794563442173,
   "header": {
     "layout": {
       "LARGE": "layout_271"
