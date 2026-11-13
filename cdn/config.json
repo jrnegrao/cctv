@@ -1333,10 +1333,11 @@
       "order": [
         "0",
         "1",
-        "2",
         "3",
         "4",
-        "5"
+        "5",
+        "6",
+        "7"
       ],
       "content": {
         "0": {
@@ -1369,32 +1370,9 @@
             "left": "69%",
             "top": "2%",
             "width": "29.5%",
-            "height": "9%",
+            "height": "12%",
             "right": "1.5%",
-            "bottom": "89%"
-          },
-          "isPending": false,
-          "setting": {
-            "autoProps": {
-              "left": true,
-              "right": false,
-              "top": true,
-              "bottom": false
-            },
-            "vCenter": false,
-            "hCenter": false
-          }
-        },
-        "2": {
-          "type": "WIDGET",
-          "widgetId": "widget_406",
-          "bbox": {
-            "left": "69%",
-            "top": "12%",
-            "width": "29.5%",
-            "height": "27%",
-            "right": "1.5%",
-            "bottom": "61%"
+            "bottom": "86%"
           },
           "isPending": false,
           "setting": {
@@ -1413,11 +1391,11 @@
           "widgetId": "widget_407",
           "bbox": {
             "left": "69%",
-            "top": "41%",
+            "top": "64.5%",
             "width": "29.5%",
-            "height": "49%",
+            "height": "25.5%",
             "right": "1.5%",
-            "bottom": "10%"
+            "bottom": "10.0%"
           },
           "isPending": false,
           "setting": {
@@ -1476,6 +1454,52 @@
             "vCenter": false,
             "hCenter": false
           }
+        },
+        "6": {
+          "type": "WIDGET",
+          "widgetId": "widget_414",
+          "bbox": {
+            "left": "69%",
+            "top": "15%",
+            "width": "29.5%",
+            "height": "48%",
+            "right": "1.5%",
+            "bottom": "37%"
+          },
+          "isPending": false,
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "7": {
+          "type": "WIDGET",
+          "widgetId": "widget_415",
+          "bbox": {
+            "left": "69%",
+            "top": "91.5%",
+            "width": "14%",
+            "height": "6.5%",
+            "right": "17%",
+            "bottom": "2.0%"
+          },
+          "isPending": false,
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
         }
       }
     },
@@ -1485,10 +1509,11 @@
       "order": [
         "0",
         "1",
-        "2",
         "3",
         "4",
-        "5"
+        "5",
+        "6",
+        "7"
       ],
       "content": {
         "0": {
@@ -1498,9 +1523,9 @@
             "left": "3%",
             "top": "1%",
             "width": "94%",
-            "height": "8%",
+            "height": "10%",
             "right": "3%",
-            "bottom": "91%"
+            "bottom": "89%"
           },
           "isPending": false,
           "setting": {
@@ -1519,34 +1544,11 @@
           "widgetId": "widget_404",
           "bbox": {
             "left": "3%",
-            "top": "9%",
+            "top": "11%",
             "width": "94%",
-            "height": "38%",
+            "height": "30%",
             "right": "3%",
-            "bottom": "53%"
-          },
-          "isPending": false,
-          "setting": {
-            "autoProps": {
-              "left": true,
-              "right": false,
-              "top": true,
-              "bottom": false
-            },
-            "vCenter": false,
-            "hCenter": false
-          }
-        },
-        "2": {
-          "type": "WIDGET",
-          "widgetId": "widget_406",
-          "bbox": {
-            "left": "3%",
-            "top": "48%",
-            "width": "94%",
-            "height": "20%",
-            "right": "3%",
-            "bottom": "32%"
+            "bottom": "59%"
           },
           "isPending": false,
           "setting": {
@@ -1565,9 +1567,9 @@
           "widgetId": "widget_407",
           "bbox": {
             "left": "3%",
-            "top": "69%",
+            "top": "70%",
             "width": "94%",
-            "height": "22%",
+            "height": "21%",
             "right": "3%",
             "bottom": "9%"
           },
@@ -1589,9 +1591,9 @@
           "bbox": {
             "left": "3%",
             "top": "92%",
-            "width": "46%",
+            "width": "30%",
             "height": "6.5%",
-            "right": "51%",
+            "right": "67%",
             "bottom": "1.5%"
           },
           "isPending": false,
@@ -1610,11 +1612,57 @@
           "type": "WIDGET",
           "widgetId": "widget_409",
           "bbox": {
-            "left": "51%",
+            "left": "67%",
             "top": "92%",
-            "width": "46%",
+            "width": "30%",
             "height": "6.5%",
             "right": "3%",
+            "bottom": "1.5%"
+          },
+          "isPending": false,
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "6": {
+          "type": "WIDGET",
+          "widgetId": "widget_414",
+          "bbox": {
+            "left": "3%",
+            "top": "42%",
+            "width": "94%",
+            "height": "27%",
+            "right": "3%",
+            "bottom": "31%"
+          },
+          "isPending": false,
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "7": {
+          "type": "WIDGET",
+          "widgetId": "widget_415",
+          "bbox": {
+            "left": "35%",
+            "top": "92%",
+            "width": "30%",
+            "height": "6.5%",
+            "right": "35%",
             "bottom": "1.5%"
           },
           "isPending": false,
@@ -1637,10 +1685,11 @@
       "order": [
         "0",
         "1",
-        "2",
         "3",
         "4",
-        "5"
+        "5",
+        "6",
+        "7"
       ],
       "content": {
         "0": {
@@ -1650,9 +1699,9 @@
             "left": "3%",
             "top": "1%",
             "width": "94%",
-            "height": "8%",
+            "height": "10%",
             "right": "3%",
-            "bottom": "91%"
+            "bottom": "89%"
           },
           "isPending": false,
           "setting": {
@@ -1671,34 +1720,11 @@
           "widgetId": "widget_404",
           "bbox": {
             "left": "3%",
-            "top": "9%",
+            "top": "11%",
             "width": "94%",
-            "height": "38%",
+            "height": "30%",
             "right": "3%",
-            "bottom": "53%"
-          },
-          "isPending": false,
-          "setting": {
-            "autoProps": {
-              "left": true,
-              "right": false,
-              "top": true,
-              "bottom": false
-            },
-            "vCenter": false,
-            "hCenter": false
-          }
-        },
-        "2": {
-          "type": "WIDGET",
-          "widgetId": "widget_406",
-          "bbox": {
-            "left": "3%",
-            "top": "48%",
-            "width": "94%",
-            "height": "20%",
-            "right": "3%",
-            "bottom": "32%"
+            "bottom": "59%"
           },
           "isPending": false,
           "setting": {
@@ -1717,9 +1743,9 @@
           "widgetId": "widget_407",
           "bbox": {
             "left": "3%",
-            "top": "69%",
+            "top": "70%",
             "width": "94%",
-            "height": "22%",
+            "height": "21%",
             "right": "3%",
             "bottom": "9%"
           },
@@ -1741,9 +1767,9 @@
           "bbox": {
             "left": "3%",
             "top": "92%",
-            "width": "46%",
+            "width": "30%",
             "height": "6.5%",
-            "right": "51%",
+            "right": "67%",
             "bottom": "1.5%"
           },
           "isPending": false,
@@ -1762,11 +1788,57 @@
           "type": "WIDGET",
           "widgetId": "widget_409",
           "bbox": {
-            "left": "51%",
+            "left": "67%",
             "top": "92%",
-            "width": "46%",
+            "width": "30%",
             "height": "6.5%",
             "right": "3%",
+            "bottom": "1.5%"
+          },
+          "isPending": false,
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "6": {
+          "type": "WIDGET",
+          "widgetId": "widget_414",
+          "bbox": {
+            "left": "3%",
+            "top": "42%",
+            "width": "94%",
+            "height": "27%",
+            "right": "3%",
+            "bottom": "31%"
+          },
+          "isPending": false,
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "7": {
+          "type": "WIDGET",
+          "widgetId": "widget_415",
+          "bbox": {
+            "left": "35%",
+            "top": "92%",
+            "width": "30%",
+            "height": "6.5%",
+            "right": "35%",
             "bottom": "1.5%"
           },
           "isPending": false,
@@ -4398,7 +4470,7 @@
       "uri": "widgets/common/text/",
       "label": "Detalhe – nome",
       "config": {
-        "text": "<p><strong style=\"font-size:22px;color:var(--primary);\"><exp data-uniqueid=\"da98e9d7_168e_4930_9578_ad2af0bdf5f7\" data-dsid=\"dataSource_4-19e458c752d-layer-3-selection\" data-expression=\"%7B%22name%22%3A%22%7BDESCRICAO%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BDESCRICAO%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-19e458c752d-layer-3-selection%22%2C%22jimuFieldName%22%3A%22descricao%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{DESCRICAO}﻿﻿</span>﻿</exp></strong></p><p><span style=\"font-size:13px;color:#6b7690;\"><exp data-uniqueid=\"5d657b66_f7d1_41f0_8d4d_29b8a4a88f9d\" data-dsid=\"dataSource_4-19e458c752d-layer-3-selection\" data-expression=\"%7B%22name%22%3A%22%7BBAIRRO%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BBAIRRO%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-19e458c752d-layer-3-selection%22%2C%22jimuFieldName%22%3A%22bairro%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{BAIRRO}﻿﻿</span>﻿</exp></span></p>",
+        "text": "<p><strong style=\"font-size:22px;color:var(--primary);\"><exp data-uniqueid=\"7481b85d_35a0_47dc_a148_6c1f3f81b581\" data-dsid=\"dataSource_4-19e458c752d-layer-3-selection\" data-expression=\"%7B%22name%22%3A%22%7BDESCRICAO%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BDESCRICAO%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-19e458c752d-layer-3-selection%22%2C%22jimuFieldName%22%3A%22descricao%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{DESCRICAO}﻿﻿</span>﻿</exp></strong>&nbsp;<span style=\"font-size:22px;color:#1f9d55;\"><exp data-uniqueid=\"479c8a6b_2d62_4027_a89c_a0334deb5b72\" data-dsid=\"dataSource_4-19e458c752d-layer-3-selection\" data-expression=\"%7B%22name%22%3A%22%7BLISTA_ONLINE%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BLISTA_ONLINE%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-19e458c752d-layer-3-selection%22%2C%22jimuFieldName%22%3A%22lista_online%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{LISTA_ONLINE}﻿﻿</span>﻿</exp></span><span style=\"font-size:22px;color:#d64545;\"><exp data-uniqueid=\"f59d8997_7f12_4adf_9e67_2e938e38b13d\" data-dsid=\"dataSource_4-19e458c752d-layer-3-selection\" data-expression=\"%7B%22name%22%3A%22%7BLISTA_OFFLINE%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BLISTA_OFFLINE%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-19e458c752d-layer-3-selection%22%2C%22jimuFieldName%22%3A%22lista_offline%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{LISTA_OFFLINE}﻿﻿</span>﻿</exp></span></p><p><span style=\"font-size:13px;color:#6b7690;\"><exp data-uniqueid=\"dac75fe2_b9fc_44c4_8c27_d0599ddb2643\" data-dsid=\"dataSource_4-19e458c752d-layer-3-selection\" data-expression=\"%7B%22name%22%3A%22%7BBAIRRO%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BBAIRRO%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-19e458c752d-layer-3-selection%22%2C%22jimuFieldName%22%3A%22bairro%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{BAIRRO}﻿﻿</span>﻿</exp></span></p><p><span style=\"font-size:12px;color:#6b7690;\">Verificado em:</span>&nbsp;<strong style=\"font-size:12px;color:#1b2a4a;\"><exp data-uniqueid=\"ae2061a3_326f_4e8b_9e55_a1c7b010091e\" data-dsid=\"dataSource_4-19e458c752d-layer-3-selection\" data-expression=\"%7B%22name%22%3A%22%7BULTIMA_VERIFICACAO%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BULTIMA_VERIFICACAO%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-19e458c752d-layer-3-selection%22%2C%22jimuFieldName%22%3A%22ultima_verificacao%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{ULTIMA_VERIFICACAO}﻿﻿</span>﻿</exp></strong></p>",
         "style": {
           "wrap": true,
           "verticalAlign": "start"
@@ -4412,53 +4484,15 @@
           "rootDataSourceId": "dataSource_4",
           "fields": [
             "descricao",
-            "bairro"
-          ]
-        }
-      ],
-      "useDataSourcesEnabled": true,
-      "id": "widget_405",
-      "version": "1.19.0"
-    },
-    "widget_406": {
-      "uri": "widgets/common/text/",
-      "label": "Detalhe – informações",
-      "config": {
-        "text": "<p style=\"line-height:1.7;\"><span style=\"font-size:12px;color:#6b7690;\">Status:</span>&nbsp;<strong style=\"font-size:14px;color:#1b2a4a;\"><exp data-uniqueid=\"2142b143_2d37_4c26_9629_fe8e4e98c3a7\" data-dsid=\"dataSource_4-19e458c752d-layer-3-selection\" data-expression=\"%7B%22name%22%3A%22%7BSTATUS%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BSTATUS%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-19e458c752d-layer-3-selection%22%2C%22jimuFieldName%22%3A%22status%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{STATUS}﻿﻿</span>﻿</exp></strong></p><p style=\"line-height:1.7;\"><span style=\"font-size:12px;color:#6b7690;\">Verificado em:</span>&nbsp;<strong style=\"font-size:14px;color:#1b2a4a;\"><exp data-uniqueid=\"8c54f892_ab08_4713_9c72_0f43b411a79a\" data-dsid=\"dataSource_4-19e458c752d-layer-3-selection\" data-expression=\"%7B%22name%22%3A%22%7BULTIMA_VERIFICACAO%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BULTIMA_VERIFICACAO%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-19e458c752d-layer-3-selection%22%2C%22jimuFieldName%22%3A%22ultima_verificacao%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{ULTIMA_VERIFICACAO}﻿﻿</span>﻿</exp></strong></p>",
-        "style": {
-          "wrap": true,
-          "verticalAlign": "start"
-        }
-      },
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_4-19e458c752d-layer-3-selection",
-          "mainDataSourceId": "dataSource_4-19e458c752d-layer-3",
-          "dataViewId": "selection",
-          "rootDataSourceId": "dataSource_4",
-          "fields": [
-            "status",
+            "bairro",
+            "lista_online",
+            "lista_offline",
             "ultima_verificacao"
           ]
         }
       ],
       "useDataSourcesEnabled": true,
-      "style": {
-        "background": {
-          "color": "#f4f7fc",
-          "fillType": "fill"
-        },
-        "borderRadius": {
-          "number": [
-            10,
-            10,
-            10,
-            10
-          ],
-          "unit": "px"
-        }
-      },
-      "id": "widget_406",
+      "id": "widget_405",
       "version": "1.19.0"
     },
     "widget_407": {
@@ -4967,6 +5001,149 @@
         "opacidadeFundo": 1
       },
       "id": "widget_413"
+    },
+    "widget_414": {
+      "id": "widget_414",
+      "uri": "widgets/common/embed/",
+      "version": "1.19.0",
+      "label": "Detalhe – GeoAPUC 360°",
+      "config": {
+        "embedType": "url",
+        "expression": "<p><exp data-uniqueid=\"47289e06_2278_4ef5_abc5_f781228babcb\" data-dsid=\"dataSource_4-19e458c752d-layer-3-selection\" data-expression=\"%7B%22name%22%3A%22%7BURL_360%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BURL_360%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-19e458c752d-layer-3-selection%22%2C%22jimuFieldName%22%3A%22url_360%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{URL_360}﻿﻿</span>﻿</exp></p>",
+        "enableLabel": false,
+        "honorThemeFont": false,
+        "embedCode": "",
+        "autoRefresh": false,
+        "label": "GeoAPUC 360°"
+      },
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_4-19e458c752d-layer-3-selection",
+          "mainDataSourceId": "dataSource_4-19e458c752d-layer-3",
+          "dataViewId": "selection",
+          "rootDataSourceId": "dataSource_4",
+          "fields": [
+            "url_360"
+          ]
+        }
+      ],
+      "useDataSourcesEnabled": true,
+      "style": {
+        "border": {
+          "type": "solid",
+          "color": "#dfe5ef",
+          "width": "1px"
+        },
+        "borderRadius": {
+          "number": [
+            12,
+            12,
+            12,
+            12
+          ],
+          "unit": "px"
+        }
+      }
+    },
+    "widget_415": {
+      "id": "widget_415",
+      "uri": "widgets/common/button/",
+      "version": "1.19.0",
+      "label": "Detalhe – 📍 Como chegar",
+      "config": {
+        "functionConfig": {
+          "text": "📍 Como chegar",
+          "toolTip": "Abrir a rota até esta câmera no Google Maps (nova aba)",
+          "linkParam": {
+            "linkType": "WEB_ADDRESS",
+            "value": "",
+            "openType": "_blank",
+            "expression": {
+              "name": "{URL_ROTA}",
+              "parts": [
+                {
+                  "type": "FIELD",
+                  "exp": "{URL_ROTA}",
+                  "dataSourceId": "dataSource_4-19e458c752d-layer-3-selection",
+                  "jimuFieldName": "url_rota",
+                  "isFromRepeatedDataSourceContext": false
+                }
+              ]
+            }
+          }
+        },
+        "styleConfig": {
+          "useCustom": true,
+          "customStyle": {
+            "regular": {
+              "background": {
+                "color": "var(--primary)",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "color": "#076fe5",
+                "width": "0px"
+              },
+              "text": {
+                "color": "var(--light)",
+                "size": "14px"
+              },
+              "borderRadius": {
+                "number": [
+                  100,
+                  100,
+                  100,
+                  100
+                ],
+                "unit": "px"
+              },
+              "iconProps": {
+                "color": "#fff",
+                "size": 14
+              }
+            },
+            "hover": {
+              "background": {
+                "color": "var(--primary-600)",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "width": "0px"
+              },
+              "text": {
+                "size": "14px",
+                "color": "var(--light)"
+              },
+              "borderRadius": {
+                "number": [
+                  100,
+                  100,
+                  100,
+                  100
+                ],
+                "unit": "px"
+              },
+              "iconProps": {
+                "size": 14
+              }
+            }
+          }
+        }
+      },
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_4-19e458c752d-layer-3-selection",
+          "mainDataSourceId": "dataSource_4-19e458c752d-layer-3",
+          "dataViewId": "selection",
+          "rootDataSourceId": "dataSource_4",
+          "fields": [
+            "url_rota"
+          ]
+        }
+      ],
+      "useDataSourcesEnabled": true
     }
   },
   "widgetsManifest": {},
@@ -5313,7 +5490,7 @@
     "clientId": "",
     "express": false,
     "title": "Central de Monitoramento – Apucarana",
-    "description": "Central de Monitoramento de câmeras do GeoAPUC – prévia para validação.v1_NEGRAO",
+    "description": "Central de Monitoramento de câmeras do GeoAPUC – prévia para validação.v1_NEGRAO_v2",
     "type": "Web Experience",
     "thumbnail": null
   },
@@ -6389,7 +6566,7 @@
       "index": 0
     }
   },
-  "timestamp": 1794567477466,
+  "timestamp": 1794571051714,
   "header": {
     "layout": {
       "LARGE": "layout_271"
@@ -6408,6 +6585,6 @@
       "primary": "#4463a9"
     }
   },
-  "publishTimestamp": 1794567478845,
+  "publishTimestamp": 1794571052992,
   "mainLocale": "pt-br"
 }
