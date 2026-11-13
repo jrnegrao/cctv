@@ -4805,8 +4805,8 @@
       "id": "widget_411",
       "config": {
         "functionConfig": {
-          "text": "Exibir no telão",
-          "toolTip": "Abrir a grade em tela cheia para TV ou telão (nova aba)",
+          "text": "Modo Tela Cheia",
+          "toolTip": "Abrir as câmeras em tela cheia (nova aba)",
           "linkParam": {
             "linkType": "WEB_ADDRESS",
             "value": "https://jrnegrao.github.io/cctv/telao.html",
@@ -4828,7 +4828,9 @@
               }
             },
             "position": "LEFT"
-          }
+          },
+          "textExpression": null,
+          "toolTipExpression": null
         },
         "styleConfig": {
           "useCustom": true,
@@ -6357,7 +6359,7 @@
       "index": 0
     }
   },
-  "timestamp": 1794563442173,
+  "timestamp": 1794563685122,
   "header": {
     "layout": {
       "LARGE": "layout_271"
