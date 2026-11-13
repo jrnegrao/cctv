@@ -178,7 +178,8 @@
       "type": "FIXED",
       "order": [
         "1",
-        "2"
+        "2",
+        "3"
       ],
       "content": {
         "1": {
@@ -226,6 +227,37 @@
           },
           "isPending": false,
           "widgetId": "widget_401"
+        },
+        "3": {
+          "type": "WIDGET",
+          "widgetId": "widget_413",
+          "bbox": {
+            "left": "15.9%",
+            "right": "8.5%",
+            "top": "1.3%",
+            "bottom": "85.7%",
+            "width": "75.6%",
+            "height": "13.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false,
+            "effect": {
+              "SCROLL_IN": {
+                "type": "FLY_IN",
+                "option": {
+                  "direction": null,
+                  "configType": "DEFAULT"
+                }
+              }
+            }
+          }
         }
       },
       "label": "Map FixedLayout"
@@ -4944,6 +4976,27 @@
           "unit": "px"
         }
       }
+    },
+    "widget_413": {
+      "uri": "widgets/placar-cameras/",
+      "version": "1.19.0",
+      "label": "Placar das câmeras",
+      "config": {
+        "camadaUrl": "https://geo.apucarana.pr.gov.br/server/rest/services/Hosted/Cameras_Apucarana/FeatureServer/0",
+        "intervaloMin": 5
+      },
+      "id": "widget_413",
+      "style": {
+        "borderRadius": null,
+        "border": {
+          "color": "var(--primary-400)",
+          "type": "solid",
+          "width": "2px"
+        },
+        "boxShadow": {
+          "presetStyle": "shadow-none"
+        }
+      }
     }
   },
   "widgetsManifest": {},
@@ -5285,14 +5338,7 @@
     }
   ],
   "attributes": {
-    "portalUrl": "https://geo.apucarana.pr.gov.br/portal",
-    "isWebTier": false,
-    "clientId": "",
-    "express": false,
-    "title": "Central de Monitoramento – Apucarana",
-    "description": "Central de Monitoramento de câmeras do GeoAPUC – prévia para validação.v1",
-    "type": "Web Experience",
-    "thumbnail": null
+    "portalUrl": "https://geo.apucarana.pr.gov.br/portal"
   },
   "sharedThemeVariables": {
     "header": {},
@@ -6366,7 +6412,7 @@
       "index": 0
     }
   },
-  "timestamp": 1794563685122,
+  "timestamp": 1794565080367,
   "header": {
     "layout": {
       "LARGE": "layout_271"
@@ -6385,6 +6431,6 @@
       "primary": "#4463a9"
     }
   },
-  "publishTimestamp": 1794563686543,
+  "publishTimestamp": 1792674991883,
   "mainLocale": "pt-br"
 }
