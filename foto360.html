@@ -96,6 +96,18 @@
         mouseZoom: true,
         crossOrigin: "anonymous"
       });
+      // Modo ajuste (&ajuste=1): mostra a direção para onde a foto está olhando, para acertar à mão
+      if (q.get("ajuste") === "1") {
+        var caixa = document.createElement("div");
+        caixa.style.cssText = "position:absolute;top:50px;left:50%;transform:translateX(-50%);z-index:7;background:#ffd84d;color:#1b2a4a;" +
+          "font:700 16px 'Segoe UI',Arial,sans-serif;padding:8px 16px;border-radius:999px;box-shadow:0 2px 8px rgba(0,0,0,.4)";
+        document.body.appendChild(caixa);
+        (function atualiza() {
+          var dir = ((v.getYaw() + (isFinite(az) ? az : 0)) % 360 + 360) % 360;
+          caixa.textContent = "Direção: " + Math.round(dir) + "°  (gire até a vista certa e me passe este número)";
+          requestAnimationFrame(atualiza);
+        })();
+      }
       v.on("load", function () {
         document.getElementById("aviso").style.display = "none";
         setTimeout(function () { document.getElementById("dica").style.opacity = "0"; }, 5000);
