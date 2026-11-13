@@ -63,29 +63,46 @@
     // A foto 360° tem o centro apontado para a frente do veículo (azimute).
     // Para olhar para a câmera: girar (rumo até a câmera − azimute do veículo).
     var yaw = (isFinite(cam) && isFinite(az)) ? norm(cam - az) : 0;
-    var v = pannellum.viewer("pano", {
-      type: "equirectangular",
-      panorama: BASE + img,
-      autoLoad: true,
-      yaw: yaw,
-      pitch: 0,
-      hfov: 100,
-      minHfov: 40,
-      maxHfov: 120,
-      northOffset: isFinite(az) ? az : 0,
-      compass: isFinite(az),
-      showZoomCtrl: true,
-      showFullscreenCtrl: false,
-      mouseZoom: true,
-      crossOrigin: "anonymous"
-    });
-    v.on("load", function () {
-      document.getElementById("aviso").style.display = "none";
-      setTimeout(function () { document.getElementById("dica").style.opacity = "0"; }, 5000);
-    });
-    v.on("error", function () {
+    var erro = function () {
       aviso("A foto 360° deste local não está disponível no momento.<br><span style='opacity:.7;font-size:12px'>Tente novamente mais tarde.</span>");
-    });
+    };
+    // Primeiro mede a foto: se ela não cobre os 180° na vertical (céu e chão cortados),
+    // o visualizador é avisado e nunca mostra a área sem foto (as "manchas pretas").
+    var medida = new Image();
+    medida.crossOrigin = "anonymous";
+    medida.onerror = erro;
+    medida.onload = function () {
+      var w = medida.naturalWidth, h = medida.naturalHeight;
+      var vaov = Math.min(180, 360 * h / w);
+      var v = pannellum.viewer("pano", {
+        type: "equirectangular",
+        panorama: BASE + img,
+        autoLoad: true,
+        haov: 360,
+        vaov: vaov,
+        avoidShowingBackground: true,
+        // limite de olhar para cima / para baixo: corta o céu e o chão sob o carro do mapeamento
+        minPitch: -Math.min(40, vaov / 2),
+        maxPitch: Math.min(40, vaov / 2),
+        yaw: yaw,
+        pitch: 0,
+        hfov: 90,
+        minHfov: 40,
+        maxHfov: 100,
+        northOffset: isFinite(az) ? az : 0,
+        compass: isFinite(az),
+        showZoomCtrl: true,
+        showFullscreenCtrl: false,
+        mouseZoom: true,
+        crossOrigin: "anonymous"
+      });
+      v.on("load", function () {
+        document.getElementById("aviso").style.display = "none";
+        setTimeout(function () { document.getElementById("dica").style.opacity = "0"; }, 5000);
+      });
+      v.on("error", erro);
+    };
+    medida.src = BASE + img;
   }
 </script>
 </body>
