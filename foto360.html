@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GeoAPUC 360°</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pannellum/2.5.6/pannellum.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pannellum/2.5.6/pannellum.js"></script>
+<style>
+  :root { --azul: #1b3a7a; --texto: #ffffff; --fundo: #0f1b33; }
+  html, body { margin: 0; height: 100%; background: var(--fundo); font-family: "Segoe UI", Roboto, Arial, sans-serif; overflow: hidden; }
+  #pano { position: absolute; inset: 0; }
+  .selo { position: absolute; top: 10px; left: 10px; z-index: 5; display: flex; align-items: center; gap: 8px;
+          background: rgba(15, 27, 51, .78); color: var(--texto); border-radius: 999px; padding: 6px 12px 6px 10px;
+          font-size: 13px; backdrop-filter: blur(4px); pointer-events: none; }
+  .selo b { font-weight: 700; letter-spacing: .3px; }
+  .selo span { opacity: .8; font-size: 12px; }
+  .abrir { position: absolute; top: 10px; right: 10px; z-index: 5; background: rgba(15, 27, 51, .78); color: #fff;
+           border: 0; border-radius: 999px; padding: 6px 12px; font-size: 13px; cursor: pointer; text-decoration: none; }
+  .abrir:hover { background: var(--azul); }
+  .dica { position: absolute; bottom: 10px; left: 50%; transform: translateX(-50%); z-index: 5; color: #fff; font-size: 12px;
+          background: rgba(15, 27, 51, .6); border-radius: 999px; padding: 4px 12px; pointer-events: none; transition: opacity .6s; white-space: nowrap; }
+  .aviso { position: absolute; inset: 0; z-index: 6; display: flex; flex-direction: column; align-items: center; justify-content: center;
+           gap: 12px; color: #dfe7f5; font-size: 14px; text-align: center; padding: 16px; background: var(--fundo); }
+  .giro { width: 34px; height: 34px; border: 3px solid rgba(255,255,255,.2); border-top-color: #fff; border-radius: 50%; animation: g 1s linear infinite; }
+  @keyframes g { to { transform: rotate(360deg); } }
+  .pnlm-load-box, .pnlm-about-msg { display: none !important; }
+  .pnlm-controls-container { top: auto !important; bottom: 10px; left: 10px !important; }
+  @media (max-width: 420px) { .selo span { display: none; } .dica { font-size: 11px; } }
+</style>
+</head>
+<body>
+<div id="pano"></div>
+<div class="selo"><b>GeoAPUC 360°</b><span id="data"></span></div>
+<a class="abrir" id="abrir" target="_blank" rel="noopener" title="Abrir a foto 360° em tela cheia, numa nova aba">⤢ Ampliar</a>
+<div class="dica" id="dica">Arraste para girar · role para aproximar</div>
+<div class="aviso" id="aviso"><div class="giro"></div><div>Carregando a foto 360° do local…</div></div>
+<script>
+  var BASE = "https://gisserver.engemap.com.br/ApucaranaFotos/";
+  var q = new URLSearchParams(location.search);
+  var img = (q.get("img") || "").replace(/\\/g, "/").replace(/^\/+/, "");
+  var cam = parseFloat(q.get("cam"));   // rumo do ponto da foto até a câmera (graus, a partir do norte)
+  var az = parseFloat(q.get("az"));     // direção do veículo no momento da foto (graus)
+  var dataTxt = q.get("data") || "";
+  if (/^\d{8}$/.test(dataTxt)) {
+    document.getElementById("data").textContent = "· foto de " + dataTxt.slice(6, 8) + "/" + dataTxt.slice(4, 6) + "/" + dataTxt.slice(0, 4);
+  }
+  // Na versão em tela cheia (aberta pelo botão), o próprio botão some.
+  if (q.get("cheia") === "1") { document.getElementById("abrir").style.display = "none"; }
+  else { document.getElementById("abrir").href = location.pathname + location.search + "&cheia=1"; }
+
+  function aviso(txt) {
+    var a = document.getElementById("aviso");
+    a.innerHTML = "<div style='font-size:28px'>🌐</div><div>" + txt + "</div>";
+    a.style.display = "flex";
+  }
+  function norm(g) { g = ((g % 360) + 540) % 360 - 180; return g; }
+
+  if (!img) {
+    aviso("Selecione uma câmera para ver a foto 360° do local.");
+  } else {
+    if (!/\.jpg$/i.test(img)) img += ".jpg";
+    // A foto 360° tem o centro apontado para a frente do veículo (azimute).
+    // Para olhar para a câmera: girar (rumo até a câmera − azimute do veículo).
+    var yaw = (isFinite(cam) && isFinite(az)) ? norm(cam - az) : 0;
+    var v = pannellum.viewer("pano", {
+      type: "equirectangular",
+      panorama: BASE + img,
+      autoLoad: true,
+      yaw: yaw,
+      pitch: 0,
+      hfov: 100,
+      minHfov: 40,
+      maxHfov: 120,
+      northOffset: isFinite(az) ? az : 0,
+      compass: isFinite(az),
+      showZoomCtrl: true,
+      showFullscreenCtrl: false,
+      mouseZoom: true,
+      crossOrigin: "anonymous"
+    });
+    v.on("load", function () {
+      document.getElementById("aviso").style.display = "none";
+      setTimeout(function () { document.getElementById("dica").style.opacity = "0"; }, 5000);
+    });
+    v.on("error", function () {
+      aviso("A foto 360° deste local não está disponível no momento.<br><span style='opacity:.7;font-size:12px'>Tente novamente mais tarde.</span>");
+    });
+  }
+</script>
+</body>
+</html>
