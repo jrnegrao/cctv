@@ -1,0 +1,24 @@
+{
+  "name": "horarios-linha",
+  "label": "Horários da Linha",
+  "type": "widget",
+  "version": "1.19.0",
+  "exbVersion": "1.19.0",
+  "author": "GeoAPUC",
+  "description": "Mostra a tabela de horários (dias úteis) da linha de ônibus selecionada na lista, com a próxima saída em destaque.",
+  "copyright": "",
+  "license": "",
+  "properties": {
+    "hasSettingPage": false
+  },
+  "translatedLocales": [
+    "en"
+  ],
+  "defaultSize": {
+    "width": 380,
+    "height": 560
+  },
+  "dependency": [
+    "jimu-arcgis"
+  ]
+}
