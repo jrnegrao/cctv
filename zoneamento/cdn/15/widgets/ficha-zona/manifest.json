@@ -1,0 +1,24 @@
+{
+  "name": "ficha-zona",
+  "label": "Ficha da Zona",
+  "type": "widget",
+  "version": "1.19.0",
+  "exbVersion": "1.19.0",
+  "author": "GeoAPUC",
+  "description": "Clique no mapa e veja a ficha da zona: usos permitidos e tolerados, parâmetros de ocupação e lote mínimo.",
+  "copyright": "",
+  "license": "",
+  "dependency": [
+    "jimu-arcgis"
+  ],
+  "properties": {
+    "hasSettingPage": false
+  },
+  "translatedLocales": [
+    "en"
+  ],
+  "defaultSize": {
+    "width": 450,
+    "height": 700
+  }
+}

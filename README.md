@@ -12,3 +12,8 @@ Esta é uma versão provisória. A versão oficial será publicada em `geo.apuca
 
 Prévia, para validação, do app **Mobilidade Urbana** do GeoAPUC: linhas, horários (dias úteis), paradas e tempo real (Mobilibus).
 Acesso: https://jrnegrao.github.io/cctv/mobilidade/?locale=pt-br
+
+## Ordenamento Territorial (prévia)
+
+Prévia, para validação, do app **Ordenamento Territorial** do GeoAPUC: zoneamento de Apucarana com a Ficha da Zona (usos, ocupação e lote mínimo) e o modo "Onde posso…?", que mostra no mapa onde cada atividade é permitida ou tolerada.
+Acesso: https://jrnegrao.github.io/cctv/zoneamento/?locale=pt-br
