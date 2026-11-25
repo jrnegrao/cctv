@@ -999,19 +999,19 @@
         "0": {
           "type": "WIDGET",
           "bbox": {
-            "left": "2%",
-            "right": "2%",
-            "top": "0.5%",
-            "bottom": "91.5%",
-            "width": "96%",
-            "height": "8%"
+            "left": "2.0%",
+            "right": "2.0%",
+            "top": "-0.0%",
+            "bottom": "92.0%",
+            "width": "96.0%",
+            "height": "8.0%"
           },
           "setting": {
             "autoProps": {
               "left": true,
               "right": false,
-              "top": true,
-              "bottom": false
+              "top": false,
+              "bottom": true
             },
             "vCenter": false,
             "hCenter": false
@@ -3604,7 +3604,7 @@
       "version": "1.19.0",
       "label": "widget_392",
       "config": {
-        "text": "<p><span style=\"font-size:12px;color:#6b7690;\"><exp data-uniqueid=\"a392b1c2_d3e4_4f50_8a61_b7c8d9e0f123\" data-dsid=\"dataSource_4-19e458c752d-layer-3\" data-expression=\"%7B%22name%22%3A%22%7BBAIRRO%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BBAIRRO%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-19e458c752d-layer-3%22%2C%22jimuFieldName%22%3A%22bairro%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{BAIRRO}﻿﻿</span>﻿</exp>&nbsp;&nbsp;</span></p>",
+        "text": "<p><span style=\"font-size:12px;color:#6b7690;\"><exp data-uniqueid=\"0bcbd81f_b2e8_414d_bb4e_30bbea3f65bf\" data-dsid=\"dataSource_4-19e458c752d-layer-3\" data-expression=\"%7B%22name%22%3A%22%7BBAIRRO%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BBAIRRO%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-19e458c752d-layer-3%22%2C%22jimuFieldName%22%3A%22bairro%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{BAIRRO}﻿﻿</span>﻿</exp>&nbsp;·&nbsp;</span><span style=\"font-size:12px;font-weight:600;color:#1f9d55;\"><exp data-uniqueid=\"728a9365_860d_48de_8f80_77198b939af8\" data-dsid=\"dataSource_4-19e458c752d-layer-3\" data-expression=\"%7B%22name%22%3A%22%7BTXT_ONLINE%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BTXT_ONLINE%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-19e458c752d-layer-3%22%2C%22jimuFieldName%22%3A%22txt_online%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{TXT_ONLINE}﻿﻿</span>﻿</exp></span><span style=\"font-size:12px;font-weight:600;color:#d64545;\"><exp data-uniqueid=\"a32f4d0e_d046_4ca4_93ac_bdf9dc4cba72\" data-dsid=\"dataSource_4-19e458c752d-layer-3\" data-expression=\"%7B%22name%22%3A%22%7BTXT_OFFLINE%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BTXT_OFFLINE%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-19e458c752d-layer-3%22%2C%22jimuFieldName%22%3A%22txt_offline%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{TXT_OFFLINE}﻿﻿</span>﻿</exp></span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true,
@@ -3631,7 +3631,9 @@
           "mainDataSourceId": "dataSource_4-19e458c752d-layer-3",
           "rootDataSourceId": "dataSource_4",
           "fields": [
-            "bairro"
+            "bairro",
+            "txt_offline",
+            "txt_online"
           ]
         },
         {
@@ -3639,7 +3641,9 @@
           "mainDataSourceId": "dataSource_4-19e458c752d-layer-3",
           "rootDataSourceId": "dataSource_4",
           "fields": [
-            "bairro"
+            "bairro",
+            "txt_offline",
+            "txt_online"
           ]
         }
       ],
@@ -4162,6 +4166,73 @@
           "color": "#dfe5ef",
           "width": "1px"
         }
+      },
+      "dataActions": {
+        "showOnMap": {
+          "config": {
+            "isUseCustomSymbol": true,
+            "isOperationalLayer": true,
+            "symbolOption": {
+              "pointSymbol": {
+                "type": "esriSMS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0,
+                "size": 12,
+                "style": "esriSMSCircle",
+                "outline": {
+                  "type": "esriSLS",
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1,
+                  "style": "esriSLSSolid"
+                }
+              },
+              "polylineSymbol": {
+                "type": "esriSLS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "width": 0.75,
+                "style": "esriSLSSolid"
+              },
+              "polygonSymbol": {
+                "type": "esriSFS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1,
+                  "style": "esriSLSSolid"
+                },
+                "style": "esriSFSSolid"
+              }
+            }
+          }
+        }
       }
     },
     "widget_400": {
@@ -4170,7 +4241,7 @@
       "label": "Mosaico – título",
       "id": "widget_400",
       "config": {
-        "text": "<p style=\"line-height: 1.3; text-align: center;\"><strong style=\"color: var(--primary); font-size: 20px;\">Central de Monitoramento</strong></p><p style=\"text-align:center;\"><span style=\"font-size:12px;color:#6b7280;\">Câmeras online, ao vivo · 🔍 Detalhar abre em tela grande · ⋮ → Picture-in-picture deixa o vídeo flutuando na tela</span></p>",
+        "text": "<p style=\"text-align: center; line-height: 1.3;\"><strong style=\"font-size: 20px; color: var(--primary);\">Central de Monitoramento</strong></p><p style=\"text-align: center;\"><span style=\"color: rgb(107, 114, 128); font-size: 12px;\">Câmeras online, ao vivo · 🔍 Detalhar abre em tela grande</span></p>",
         "style": {
           "wrap": true
         }
@@ -5485,14 +5556,7 @@
     }
   ],
   "attributes": {
-    "portalUrl": "https://geo.apucarana.pr.gov.br/portal",
-    "isWebTier": false,
-    "clientId": "",
-    "express": false,
-    "title": "Central de Monitoramento – Apucarana",
-    "description": "Central de Monitoramento de câmeras do GeoAPUC – prévia para validação.v1_NEGRAO_v2",
-    "type": "Web Experience",
-    "thumbnail": null
+    "portalUrl": "https://geo.apucarana.pr.gov.br/portal"
   },
   "sharedThemeVariables": {
     "header": {},
@@ -6566,7 +6630,7 @@
       "index": 0
     }
   },
-  "timestamp": 1794571051714,
+  "timestamp": 1795606208735,
   "header": {
     "layout": {
       "LARGE": "layout_271"
@@ -6585,6 +6649,6 @@
       "primary": "#4463a9"
     }
   },
-  "publishTimestamp": 1794571052992,
+  "publishTimestamp": 1792674991883,
   "mainLocale": "pt-br"
 }
