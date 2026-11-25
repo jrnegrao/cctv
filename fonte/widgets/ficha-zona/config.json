@@ -1,0 +1,7 @@
+{
+  "zonaUrl": "https://geo.apucarana.pr.gov.br/server/rest/services/Camadas/Zoneamento_PMAPU/MapServer/0",
+  "campoZona": "zoneamento",
+  "tabelaUrl": "https://geo.apucarana.pr.gov.br/server/rest/services/Hosted/zoneamento_apucarana_completo/FeatureServer/0",
+  "campoTabela": "zona",
+  "desligarPopup": true
+}

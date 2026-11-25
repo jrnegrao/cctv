@@ -18,3 +18,7 @@ Versão atual: v2 (visual no padrão dos widgets dos desenvolvedores; painel Ser
 
 Prévia, para validação, do app **Ordenamento Territorial** do GeoAPUC: zoneamento de Apucarana com a Ficha da Zona (usos, ocupação e lote mínimo) e o modo "Onde posso…?", que mostra no mapa onde cada atividade é permitida ou tolerada.
 Acesso: https://jrnegrao.github.io/cctv/zoneamento/?locale=pt-br
+
+## Código-fonte (backup)
+
+A pasta `fonte/` guarda o código dos widgets próprios e os notebooks do ArcGIS Pro. Veja `fonte/README.md`.

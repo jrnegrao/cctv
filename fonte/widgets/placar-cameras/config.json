@@ -1,0 +1,5 @@
+{
+  "camadaUrl": "https://geo.apucarana.pr.gov.br/server/rest/services/Hosted/Cameras_Apucarana/FeatureServer/0",
+  "intervaloMin": 5,
+  "opacidadeFundo": 0.7
+}
