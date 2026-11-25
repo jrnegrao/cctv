@@ -23,3 +23,8 @@ Widgets próprios. No ExB eles ficam em `C:\ExB_1.19\client\your-extensions\widg
 Notebooks do ArcGIS Pro usados para publicar os dados e montar ou ajustar os apps. Para cada notebook, a versão de número mais alto é a mais recente.
 
 As saídas foram apagadas antes do backup. Nenhuma senha está gravada: os notebooks usam o login ativo do Pro ou pedem a senha na hora.
+
+## Gerar_Zip_v3.bat
+
+Gera o zip de um app do ExB (2 = CCTV, 3 = Mobilidade, 4 = Zoneamento), com o nome `<app>_v<N>.zip` e em português.
+No fim, abre a pasta com o zip selecionado. Se já existir um zip com o mesmo nome, avisa e abre o que já existe.

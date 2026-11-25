@@ -2078,10 +2078,10 @@
               },
               "borderRadius": {
                 "number": [
-                  100,
-                  100,
-                  100,
-                  100
+                  4,
+                  4,
+                  4,
+                  4
                 ],
                 "unit": "px"
               },
@@ -2105,10 +2105,10 @@
               },
               "borderRadius": {
                 "number": [
-                  100,
-                  100,
-                  100,
-                  100
+                  4,
+                  4,
+                  4,
+                  4
                 ],
                 "unit": "px"
               },
@@ -3473,7 +3473,7 @@
       "version": "1.19.0",
       "label": "Texto 94",
       "config": {
-        "text": "<p><span style=\"font-size:15px;font-weight:600;color:#1b2a4a;\"><exp data-uniqueid=\"ec923d1b_9684_8033_a7df_9c9c7cd10fc2\" data-dsid=\"dataSource_4-19e458c752d-layer-3\" data-expression=\"%7B%22name%22%3A%22%7BDESCRICAO%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BDESCRICAO%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-19e458c752d-layer-3%22%2C%22jimuFieldName%22%3A%22descricao%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{DESCRICAO}﻿﻿</span>﻿</exp>&nbsp;&nbsp;</span></p>",
+        "text": "<p><span style=\"font-size:15px;font-weight:600;color:#1F2937;\"><exp data-uniqueid=\"ec923d1b_9684_8033_a7df_9c9c7cd10fc2\" data-dsid=\"dataSource_4-19e458c752d-layer-3\" data-expression=\"%7B%22name%22%3A%22%7BDESCRICAO%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BDESCRICAO%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-19e458c752d-layer-3%22%2C%22jimuFieldName%22%3A%22descricao%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{DESCRICAO}﻿﻿</span>﻿</exp>&nbsp;&nbsp;</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true,
@@ -3583,7 +3583,7 @@
       "version": "1.19.0",
       "label": "Texto orientação",
       "config": {
-        "text": "<p style=\"text-align: center;\">Clique numa câmera para ver ao vivo · 🔍 abre o detalhe</p>",
+        "text": "<p style=\"text-align: center;\">Clique numa câmera para ver ao vivo · a lupa abre o detalhe</p>",
         "style": {
           "wrap": true
         },
@@ -3604,7 +3604,7 @@
       "version": "1.19.0",
       "label": "widget_392",
       "config": {
-        "text": "<p><span style=\"font-size:12px;color:#6b7690;\"><exp data-uniqueid=\"a392b1c2_d3e4_4f50_8a61_b7c8d9e0f123\" data-dsid=\"dataSource_4-19e458c752d-layer-3\" data-expression=\"%7B%22name%22%3A%22%7BBAIRRO%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BBAIRRO%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-19e458c752d-layer-3%22%2C%22jimuFieldName%22%3A%22bairro%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{BAIRRO}﻿﻿</span>﻿</exp>&nbsp;&nbsp;</span></p>",
+        "text": "<p><span style=\"font-size:12px;color:#6B7280;\"><exp data-uniqueid=\"0bcbd81f_b2e8_414d_bb4e_30bbea3f65bf\" data-dsid=\"dataSource_4-19e458c752d-layer-3\" data-expression=\"%7B%22name%22%3A%22%7BBAIRRO%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BBAIRRO%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-19e458c752d-layer-3%22%2C%22jimuFieldName%22%3A%22bairro%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{BAIRRO}﻿﻿</span>﻿</exp>&nbsp;·&nbsp;</span><span style=\"font-size:12px;font-weight:600;color:#1f9d55;\"><exp data-uniqueid=\"728a9365_860d_48de_8f80_77198b939af8\" data-dsid=\"dataSource_4-19e458c752d-layer-3\" data-expression=\"%7B%22name%22%3A%22%7BTXT_ONLINE%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BTXT_ONLINE%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-19e458c752d-layer-3%22%2C%22jimuFieldName%22%3A%22txt_online%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{TXT_ONLINE}﻿﻿</span>﻿</exp></span><span style=\"font-size:12px;font-weight:600;color:#d64545;\"><exp data-uniqueid=\"a32f4d0e_d046_4ca4_93ac_bdf9dc4cba72\" data-dsid=\"dataSource_4-19e458c752d-layer-3\" data-expression=\"%7B%22name%22%3A%22%7BTXT_OFFLINE%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BTXT_OFFLINE%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-19e458c752d-layer-3%22%2C%22jimuFieldName%22%3A%22txt_offline%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{TXT_OFFLINE}﻿﻿</span>﻿</exp></span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true,
@@ -3631,7 +3631,9 @@
           "mainDataSourceId": "dataSource_4-19e458c752d-layer-3",
           "rootDataSourceId": "dataSource_4",
           "fields": [
-            "bairro"
+            "bairro",
+            "txt_offline",
+            "txt_online"
           ]
         },
         {
@@ -3639,7 +3641,9 @@
           "mainDataSourceId": "dataSource_4-19e458c752d-layer-3",
           "rootDataSourceId": "dataSource_4",
           "fields": [
-            "bairro"
+            "bairro",
+            "txt_offline",
+            "txt_online"
           ]
         }
       ],
@@ -4237,7 +4241,7 @@
       "label": "Mosaico – título",
       "id": "widget_400",
       "config": {
-        "text": "<p style=\"text-align: center; line-height: 1.3;\"><strong style=\"font-size: 20px; color: var(--primary);\">Central de Monitoramento</strong></p><p style=\"text-align: center;\"><span style=\"color: rgb(107, 114, 128); font-size: 12px;\">Câmeras online, ao vivo · 🔍 Detalhar abre em tela grande</span></p>",
+        "text": "<p style=\"text-align: center; line-height: 1.3;\"><strong style=\"font-size: 20px; color: var(--primary);\">Central de Monitoramento</strong></p><p style=\"text-align: center;\"><span style=\"color: rgb(107, 114, 128); font-size: 12px;\">Câmeras online, ao vivo · Detalhar abre em tela grande</span></p>",
         "style": {
           "wrap": true
         }
@@ -4246,181 +4250,30 @@
     "widget_401": {
       "uri": "widgets/common/button/",
       "version": "1.19.0",
-      "label": "Botão Central de Monitoramento",
+      "label": "Mapa – Central de Monitoramento",
       "id": "widget_401",
       "config": {
         "functionConfig": {
-          "text": "▦ Central de Monitoramento",
+          "text": "Central de Monitoramento",
           "toolTip": "Abrir a Central de Monitoramento: todas as câmeras online ao mesmo tempo",
           "linkParam": {
             "linkType": "PAGE",
             "value": "page_mosaico",
             "openType": "_self"
-          }
-        },
-        "styleConfig": {
-          "useCustom": true,
-          "customStyle": {
-            "regular": {
-              "background": {
-                "color": "var(--primary)",
-                "fillType": "fill"
-              },
-              "border": {
-                "type": "solid",
-                "color": "#076fe5",
-                "width": "0px"
-              },
-              "text": {
-                "color": "var(--light)",
-                "size": "14px"
-              },
-              "borderRadius": {
-                "number": [
-                  100,
-                  100,
-                  100,
-                  100
-                ],
-                "unit": "px"
-              },
-              "iconProps": {
-                "color": "#fff",
-                "size": 14
-              }
-            },
-            "hover": {
-              "background": {
-                "color": "var(--primary-600)",
-                "fillType": "fill"
-              },
-              "border": {
-                "type": "solid",
-                "width": "0px"
-              },
-              "text": {
-                "size": "14px",
-                "color": "var(--light)"
-              },
-              "borderRadius": {
-                "number": [
-                  100,
-                  100,
-                  100,
-                  100
-                ],
-                "unit": "px"
-              },
-              "iconProps": {
-                "size": 14
-              }
-            }
-          }
-        }
-      }
-    },
-    "widget_402": {
-      "uri": "widgets/common/button/",
-      "version": "1.19.0",
-      "label": "🗺 Voltar ao mapa",
-      "id": "widget_402",
-      "config": {
-        "functionConfig": {
-          "text": "🗺 Voltar ao mapa",
-          "toolTip": "Voltar ao mapa das câmeras",
-          "linkParam": {
-            "linkType": "PAGE",
-            "value": "page_0",
-            "openType": "_self"
-          }
-        },
-        "styleConfig": {
-          "useCustom": true,
-          "customStyle": {
-            "regular": {
-              "background": {
-                "color": "var(--primary)",
-                "fillType": "fill"
-              },
-              "border": {
-                "type": "solid",
-                "color": "#076fe5",
-                "width": "0px"
-              },
-              "text": {
-                "color": "var(--light)",
-                "size": "14px"
-              },
-              "borderRadius": {
-                "number": [
-                  100,
-                  100,
-                  100,
-                  100
-                ],
-                "unit": "px"
-              },
-              "iconProps": {
-                "color": "#fff",
-                "size": 14
-              }
-            },
-            "hover": {
-              "background": {
-                "color": "var(--primary-600)",
-                "fillType": "fill"
-              },
-              "border": {
-                "type": "solid",
-                "width": "0px"
-              },
-              "text": {
-                "size": "14px",
-                "color": "var(--light)"
-              },
-              "borderRadius": {
-                "number": [
-                  100,
-                  100,
-                  100,
-                  100
-                ],
-                "unit": "px"
-              },
-              "iconProps": {
-                "size": 14
-              }
-            }
-          }
-        }
-      }
-    },
-    "widget_403": {
-      "uri": "widgets/common/button/",
-      "label": "Detalhe – 🔍 Detalhar",
-      "config": {
-        "functionConfig": {
-          "text": "Detalhar",
-          "toolTip": "Abrir esta câmera em tela grande, com informações e mapa",
-          "linkParam": {
-            "linkType": "PAGE",
-            "value": "page_detalhe",
-            "openType": "_self"
           },
-          "textExpression": null,
           "icon": {
             "data": {
-              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0m-1.27 4.936a6.5 6.5 0 1 1 .707-.707l4.136 4.137a.5.5 0 1 1-.707.707z\" clip-rule=\"evenodd\"></path></svg>",
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 16 16\"><path fill=\"#000\" d=\"M1 7h6V1H1zm1-5h4v4H2zm13-1H9v6h6zm-1 5h-4V2h4zM1 15h6V9H1zm1-5h4v4H2zm7 5h6V9H9zm1-5h4v4h-4z\"/></svg>",
               "properties": {
-                "filename": "Pesquisar",
-                "originalName": "outlined/editor/search.svg",
+                "filename": "grid",
+                "originalName": "calcite/grid-16.svg",
                 "path": [
-                  "generalAndArrows",
-                  "search"
+                  "calcite",
+                  "grid"
                 ],
                 "inlineSvg": true,
                 "isUploaded": false,
-                "color": "var(--ref-palette-neutral-1100)"
+                "color": "#FFFFFF"
               }
             },
             "position": "LEFT"
@@ -4436,24 +4289,24 @@
               },
               "border": {
                 "type": "solid",
-                "color": "#076fe5",
-                "width": "0px"
+                "color": "var(--primary)",
+                "width": "1px"
               },
               "text": {
-                "color": "var(--light)",
-                "size": "12px"
+                "color": "#FFFFFF",
+                "size": "14px"
               },
               "borderRadius": {
                 "number": [
-                  100,
-                  100,
-                  100,
-                  100
+                  4,
+                  4,
+                  4,
+                  4
                 ],
                 "unit": "px"
               },
               "iconProps": {
-                "color": "#fff",
+                "color": "#FFFFFF",
                 "size": 16
               }
             },
@@ -4464,23 +4317,214 @@
               },
               "border": {
                 "type": "solid",
-                "width": "0px"
+                "color": "var(--primary-600)",
+                "width": "1px"
               },
               "text": {
-                "size": "12px",
-                "color": "var(--light)"
+                "color": "#FFFFFF",
+                "size": "14px"
               },
               "borderRadius": {
                 "number": [
-                  100,
-                  100,
-                  100,
-                  100
+                  4,
+                  4,
+                  4,
+                  4
                 ],
                 "unit": "px"
               },
               "iconProps": {
-                "size": 14
+                "color": "#FFFFFF",
+                "size": 16
+              }
+            }
+          }
+        }
+      }
+    },
+    "widget_402": {
+      "uri": "widgets/common/button/",
+      "version": "1.19.0",
+      "label": "Central – Voltar ao mapa",
+      "id": "widget_402",
+      "config": {
+        "functionConfig": {
+          "text": "Voltar ao mapa",
+          "toolTip": "Voltar ao mapa das câmeras",
+          "linkParam": {
+            "linkType": "PAGE",
+            "value": "page_0",
+            "openType": "_self"
+          },
+          "icon": {
+            "data": {
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 16 16\"><path fill=\"#000\" d=\"M5.325 6.415 3.74 8H14v1H3.705l1.62 1.62-.707.706-2.81-2.808 2.81-2.81z\"/></svg>",
+              "properties": {
+                "filename": "arrow-left",
+                "originalName": "calcite/arrow-left-16.svg",
+                "path": [
+                  "calcite",
+                  "arrow-left"
+                ],
+                "inlineSvg": true,
+                "isUploaded": false,
+                "color": "var(--primary)"
+              }
+            },
+            "position": "LEFT"
+          }
+        },
+        "styleConfig": {
+          "useCustom": true,
+          "customStyle": {
+            "regular": {
+              "background": {
+                "color": "#FFFFFF",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "color": "var(--primary)",
+                "width": "1px"
+              },
+              "text": {
+                "color": "var(--primary)",
+                "size": "14px"
+              },
+              "borderRadius": {
+                "number": [
+                  4,
+                  4,
+                  4,
+                  4
+                ],
+                "unit": "px"
+              },
+              "iconProps": {
+                "color": "var(--primary)",
+                "size": 16
+              }
+            },
+            "hover": {
+              "background": {
+                "color": "#F5F7FA",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "color": "var(--primary)",
+                "width": "1px"
+              },
+              "text": {
+                "color": "var(--primary)",
+                "size": "14px"
+              },
+              "borderRadius": {
+                "number": [
+                  4,
+                  4,
+                  4,
+                  4
+                ],
+                "unit": "px"
+              },
+              "iconProps": {
+                "color": "var(--primary)",
+                "size": 16
+              }
+            }
+          }
+        }
+      }
+    },
+    "widget_403": {
+      "uri": "widgets/common/button/",
+      "label": "Central – Detalhar",
+      "config": {
+        "functionConfig": {
+          "text": "Detalhar",
+          "toolTip": "Abrir esta câmera em tela grande, com informações e mapa",
+          "linkParam": {
+            "linkType": "PAGE",
+            "value": "page_detalhe",
+            "openType": "_self"
+          },
+          "textExpression": null,
+          "icon": {
+            "data": {
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 16 16\"><path fill=\"#000\" d=\"M13.936 13.24 9.708 9.01a4.8 4.8 0 1 0-.69.69l4.228 4.228a.488.488 0 0 0 .69-.69zM6.002 9.8A3.8 3.8 0 1 1 8.69 8.686a3.78 3.78 0 0 1-2.687 1.112z\"/></svg>",
+              "properties": {
+                "filename": "search",
+                "originalName": "calcite/search-16.svg",
+                "path": [
+                  "calcite",
+                  "search"
+                ],
+                "inlineSvg": true,
+                "isUploaded": false,
+                "color": "var(--primary)"
+              }
+            },
+            "position": "LEFT"
+          }
+        },
+        "styleConfig": {
+          "useCustom": true,
+          "customStyle": {
+            "regular": {
+              "background": {
+                "color": "#FFFFFF",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "color": "var(--primary)",
+                "width": "1px"
+              },
+              "text": {
+                "color": "var(--primary)",
+                "size": "12px"
+              },
+              "borderRadius": {
+                "number": [
+                  4,
+                  4,
+                  4,
+                  4
+                ],
+                "unit": "px"
+              },
+              "iconProps": {
+                "color": "var(--primary)",
+                "size": 16
+              }
+            },
+            "hover": {
+              "background": {
+                "color": "#F5F7FA",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "color": "var(--primary)",
+                "width": "1px"
+              },
+              "text": {
+                "color": "var(--primary)",
+                "size": "12px"
+              },
+              "borderRadius": {
+                "number": [
+                  4,
+                  4,
+                  4,
+                  4
+                ],
+                "unit": "px"
+              },
+              "iconProps": {
+                "color": "var(--primary)",
+                "size": 16
               }
             }
           }
@@ -4537,7 +4581,7 @@
       "uri": "widgets/common/text/",
       "label": "Detalhe – nome",
       "config": {
-        "text": "<p><strong style=\"font-size:22px;color:var(--primary);\"><exp data-uniqueid=\"7481b85d_35a0_47dc_a148_6c1f3f81b581\" data-dsid=\"dataSource_4-19e458c752d-layer-3-selection\" data-expression=\"%7B%22name%22%3A%22%7BDESCRICAO%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BDESCRICAO%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-19e458c752d-layer-3-selection%22%2C%22jimuFieldName%22%3A%22descricao%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{DESCRICAO}﻿﻿</span>﻿</exp></strong>&nbsp;<span style=\"font-size:22px;color:#1f9d55;\"><exp data-uniqueid=\"479c8a6b_2d62_4027_a89c_a0334deb5b72\" data-dsid=\"dataSource_4-19e458c752d-layer-3-selection\" data-expression=\"%7B%22name%22%3A%22%7BLISTA_ONLINE%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BLISTA_ONLINE%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-19e458c752d-layer-3-selection%22%2C%22jimuFieldName%22%3A%22lista_online%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{LISTA_ONLINE}﻿﻿</span>﻿</exp></span><span style=\"font-size:22px;color:#d64545;\"><exp data-uniqueid=\"f59d8997_7f12_4adf_9e67_2e938e38b13d\" data-dsid=\"dataSource_4-19e458c752d-layer-3-selection\" data-expression=\"%7B%22name%22%3A%22%7BLISTA_OFFLINE%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BLISTA_OFFLINE%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-19e458c752d-layer-3-selection%22%2C%22jimuFieldName%22%3A%22lista_offline%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{LISTA_OFFLINE}﻿﻿</span>﻿</exp></span></p><p><span style=\"font-size:13px;color:#6b7690;\"><exp data-uniqueid=\"dac75fe2_b9fc_44c4_8c27_d0599ddb2643\" data-dsid=\"dataSource_4-19e458c752d-layer-3-selection\" data-expression=\"%7B%22name%22%3A%22%7BBAIRRO%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BBAIRRO%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-19e458c752d-layer-3-selection%22%2C%22jimuFieldName%22%3A%22bairro%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{BAIRRO}﻿﻿</span>﻿</exp></span></p><p><span style=\"font-size:12px;color:#6b7690;\">Verificado em:</span>&nbsp;<strong style=\"font-size:12px;color:#1b2a4a;\"><exp data-uniqueid=\"ae2061a3_326f_4e8b_9e55_a1c7b010091e\" data-dsid=\"dataSource_4-19e458c752d-layer-3-selection\" data-expression=\"%7B%22name%22%3A%22%7BULTIMA_VERIFICACAO%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BULTIMA_VERIFICACAO%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-19e458c752d-layer-3-selection%22%2C%22jimuFieldName%22%3A%22ultima_verificacao%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{ULTIMA_VERIFICACAO}﻿﻿</span>﻿</exp></strong></p>",
+        "text": "<p><strong style=\"font-size:22px;color:var(--primary);\"><exp data-uniqueid=\"7481b85d_35a0_47dc_a148_6c1f3f81b581\" data-dsid=\"dataSource_4-19e458c752d-layer-3-selection\" data-expression=\"%7B%22name%22%3A%22%7BDESCRICAO%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BDESCRICAO%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-19e458c752d-layer-3-selection%22%2C%22jimuFieldName%22%3A%22descricao%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{DESCRICAO}﻿﻿</span>﻿</exp></strong>&nbsp;<span style=\"font-size:22px;color:#1f9d55;\"><exp data-uniqueid=\"479c8a6b_2d62_4027_a89c_a0334deb5b72\" data-dsid=\"dataSource_4-19e458c752d-layer-3-selection\" data-expression=\"%7B%22name%22%3A%22%7BLISTA_ONLINE%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BLISTA_ONLINE%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-19e458c752d-layer-3-selection%22%2C%22jimuFieldName%22%3A%22lista_online%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{LISTA_ONLINE}﻿﻿</span>﻿</exp></span><span style=\"font-size:22px;color:#d64545;\"><exp data-uniqueid=\"f59d8997_7f12_4adf_9e67_2e938e38b13d\" data-dsid=\"dataSource_4-19e458c752d-layer-3-selection\" data-expression=\"%7B%22name%22%3A%22%7BLISTA_OFFLINE%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BLISTA_OFFLINE%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-19e458c752d-layer-3-selection%22%2C%22jimuFieldName%22%3A%22lista_offline%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{LISTA_OFFLINE}﻿﻿</span>﻿</exp></span></p><p><span style=\"font-size:13px;color:#4B5563;\"><exp data-uniqueid=\"dac75fe2_b9fc_44c4_8c27_d0599ddb2643\" data-dsid=\"dataSource_4-19e458c752d-layer-3-selection\" data-expression=\"%7B%22name%22%3A%22%7BBAIRRO%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BBAIRRO%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-19e458c752d-layer-3-selection%22%2C%22jimuFieldName%22%3A%22bairro%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{BAIRRO}﻿﻿</span>﻿</exp></span></p><p><span style=\"font-size:12px;color:#6B7280;\">Verificado em:</span>&nbsp;<strong style=\"font-size:12px;color:#1F2937;\"><exp data-uniqueid=\"ae2061a3_326f_4e8b_9e55_a1c7b010091e\" data-dsid=\"dataSource_4-19e458c752d-layer-3-selection\" data-expression=\"%7B%22name%22%3A%22%7BULTIMA_VERIFICACAO%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BULTIMA_VERIFICACAO%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-19e458c752d-layer-3-selection%22%2C%22jimuFieldName%22%3A%22ultima_verificacao%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{ULTIMA_VERIFICACAO}﻿﻿</span>﻿</exp></strong></p>",
         "style": {
           "wrap": true,
           "verticalAlign": "start"
@@ -4666,15 +4710,32 @@
     },
     "widget_408": {
       "uri": "widgets/common/button/",
-      "label": "Detalhe – ← Voltar à Central",
+      "label": "Detalhe – Voltar à Central",
       "config": {
         "functionConfig": {
-          "text": "← Voltar à Central",
+          "text": "Voltar à Central",
           "toolTip": "Voltar para a grade de câmeras",
           "linkParam": {
             "linkType": "PAGE",
             "value": "page_mosaico",
             "openType": "_self"
+          },
+          "icon": {
+            "data": {
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 16 16\"><path fill=\"#000\" d=\"M5.325 6.415 3.74 8H14v1H3.705l1.62 1.62-.707.706-2.81-2.808 2.81-2.81z\"/></svg>",
+              "properties": {
+                "filename": "arrow-left",
+                "originalName": "calcite/arrow-left-16.svg",
+                "path": [
+                  "calcite",
+                  "arrow-left"
+                ],
+                "inlineSvg": true,
+                "isUploaded": false,
+                "color": "var(--primary)"
+              }
+            },
+            "position": "LEFT"
           }
         },
         "styleConfig": {
@@ -4682,56 +4743,58 @@
           "customStyle": {
             "regular": {
               "background": {
-                "color": "var(--primary)",
+                "color": "#FFFFFF",
                 "fillType": "fill"
               },
               "border": {
                 "type": "solid",
-                "color": "#076fe5",
-                "width": "0px"
+                "color": "var(--primary)",
+                "width": "1px"
               },
               "text": {
-                "color": "var(--light)",
+                "color": "var(--primary)",
                 "size": "14px"
               },
               "borderRadius": {
                 "number": [
-                  100,
-                  100,
-                  100,
-                  100
+                  4,
+                  4,
+                  4,
+                  4
                 ],
                 "unit": "px"
               },
               "iconProps": {
-                "color": "#fff",
-                "size": 14
+                "color": "var(--primary)",
+                "size": 16
               }
             },
             "hover": {
               "background": {
-                "color": "var(--primary-600)",
+                "color": "#F5F7FA",
                 "fillType": "fill"
               },
               "border": {
                 "type": "solid",
-                "width": "0px"
+                "color": "var(--primary)",
+                "width": "1px"
               },
               "text": {
-                "size": "14px",
-                "color": "var(--light)"
+                "color": "var(--primary)",
+                "size": "14px"
               },
               "borderRadius": {
                 "number": [
-                  100,
-                  100,
-                  100,
-                  100
+                  4,
+                  4,
+                  4,
+                  4
                 ],
                 "unit": "px"
               },
               "iconProps": {
-                "size": 14
+                "color": "var(--primary)",
+                "size": 16
               }
             }
           }
@@ -4742,15 +4805,32 @@
     },
     "widget_409": {
       "uri": "widgets/common/button/",
-      "label": "Detalhe – 🗺 Ver no mapa",
+      "label": "Detalhe – Ver no mapa",
       "config": {
         "functionConfig": {
-          "text": "🗺 Ver no mapa",
+          "text": "Ver no mapa",
           "toolTip": "Abrir o mapa principal nesta câmera",
           "linkParam": {
             "linkType": "PAGE",
             "value": "page_0",
             "openType": "_self"
+          },
+          "icon": {
+            "data": {
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 16 16\"><path fill=\"#000\" d=\"M1 1v14h14V1zm9.082 13c-.005-.037-.113-.274-.122-.309a1.5 1.5 0 0 0 .718-1.267 1.2 1.2 0 0 0-.053-.358 1.6 1.6 0 0 0 .326-.607q.046.003.093.003a1.4 1.4 0 0 0 .836-.266 2 2 0 0 0 .126.124 2.38 2.38 0 0 0 1.564.68H14v2zM14 11h-.43a1.46 1.46 0 0 1-.906-.433c-.264-.23-.258-.782-.617-.782-.482 0-.52.677-1.003.677-.219 0-.38-.177-.599-.177-.193 0-.445.102-.445.293v.502c0 .424-.506.508-.506.934 0 .171.184.236.184.41 0 .58-.893.502-.893 1.08 0 .191.215.305.215.486V14H6.375a1.6 1.6 0 0 0 .09-.502c0-.547-1.043-.393-1.207-.72-.407-.813.693-1.022.693-1.673 0-.16-.082-.488-.334-.513-.351-.035-.443.154-.797.154a.406.406 0 0 1-.437-.36c0-.386.308-.566.308-.952 0-.25-.102-.393-.102-.643a.62.62 0 0 1 .59-.643c.323 0 .464.264.618.54a.64.64 0 0 0 .617.308c.49 0 .798-.61.798-.977a.47.47 0 0 1 .437-.488c.347 0 .476.36.824.36.57 0 .55-.756 1.053-1.03.618-.332.438-1.052.36-1.44-.032-.169.29-.5.464-.487.72.05.412-.54.412-.823a.4.4 0 0 1 .022-.142c.111-.332.595-.438.595-.836 0-.281-.233-.41-.233-.693a.65.65 0 0 1 .22-.44H14zM2 14V2h8.278c-.013.077-.132.356-.132.44a1.5 1.5 0 0 0 .112.567 1.6 1.6 0 0 0-.422.643 1.4 1.4 0 0 0-.074.442 1.7 1.7 0 0 0-.536.43 1.32 1.32 0 0 0-.32 1.091 3 3 0 0 1 .066.414 2 2 0 0 0-.649.67 1.46 1.46 0 0 0-.674-.166 1.45 1.45 0 0 0-1.383 1.086 1.44 1.44 0 0 0-1.086-.469 1.62 1.62 0 0 0-1.591 1.643c0 .254.113.293.084.574s-.29.535-.29 1.022a1.37 1.37 0 0 0 .984 1.29 1.58 1.58 0 0 0-.003 1.549c.143.286.636.774.534.774z\"/></svg>",
+              "properties": {
+                "filename": "map",
+                "originalName": "calcite/map-16.svg",
+                "path": [
+                  "calcite",
+                  "map"
+                ],
+                "inlineSvg": true,
+                "isUploaded": false,
+                "color": "#FFFFFF"
+              }
+            },
+            "position": "LEFT"
           }
         },
         "styleConfig": {
@@ -4763,25 +4843,25 @@
               },
               "border": {
                 "type": "solid",
-                "color": "#076fe5",
-                "width": "0px"
+                "color": "var(--primary)",
+                "width": "1px"
               },
               "text": {
-                "color": "var(--light)",
+                "color": "#FFFFFF",
                 "size": "14px"
               },
               "borderRadius": {
                 "number": [
-                  100,
-                  100,
-                  100,
-                  100
+                  4,
+                  4,
+                  4,
+                  4
                 ],
                 "unit": "px"
               },
               "iconProps": {
-                "color": "#fff",
-                "size": 14
+                "color": "#FFFFFF",
+                "size": 16
               }
             },
             "hover": {
@@ -4791,23 +4871,25 @@
               },
               "border": {
                 "type": "solid",
-                "width": "0px"
+                "color": "var(--primary-600)",
+                "width": "1px"
               },
               "text": {
-                "size": "14px",
-                "color": "var(--light)"
+                "color": "#FFFFFF",
+                "size": "14px"
               },
               "borderRadius": {
                 "number": [
-                  100,
-                  100,
-                  100,
-                  100
+                  4,
+                  4,
+                  4,
+                  4
                 ],
                 "unit": "px"
               },
               "iconProps": {
-                "size": 14
+                "color": "#FFFFFF",
+                "size": 16
               }
             }
           }
@@ -4833,17 +4915,17 @@
           "textExpression": null,
           "icon": {
             "data": {
-              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0m-1.27 4.936a6.5 6.5 0 1 1 .707-.707l4.136 4.137a.5.5 0 1 1-.707.707z\" clip-rule=\"evenodd\"></path></svg>",
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 16 16\"><path fill=\"#000\" d=\"M13.936 13.24 9.708 9.01a4.8 4.8 0 1 0-.69.69l4.228 4.228a.488.488 0 0 0 .69-.69zM6.002 9.8A3.8 3.8 0 1 1 8.69 8.686a3.78 3.78 0 0 1-2.687 1.112z\"/></svg>",
               "properties": {
-                "filename": "Pesquisar",
-                "originalName": "outlined/editor/search.svg",
+                "filename": "search",
+                "originalName": "calcite/search-16.svg",
                 "path": [
-                  "generalAndArrows",
+                  "calcite",
                   "search"
                 ],
                 "inlineSvg": true,
                 "isUploaded": false,
-                "color": "var(--ref-palette-neutral-1100)"
+                "color": "var(--primary)"
               }
             },
             "position": "LEFT"
@@ -4854,56 +4936,58 @@
           "customStyle": {
             "regular": {
               "background": {
-                "color": "var(--primary)",
+                "color": "#FFFFFF",
                 "fillType": "fill"
               },
               "border": {
                 "type": "solid",
-                "color": "#076fe5",
-                "width": "0px"
+                "color": "var(--primary)",
+                "width": "1px"
               },
               "text": {
-                "color": "var(--light)",
+                "color": "var(--primary)",
                 "size": "15px"
               },
               "borderRadius": {
                 "number": [
-                  100,
-                  100,
-                  100,
-                  100
+                  4,
+                  4,
+                  4,
+                  4
                 ],
                 "unit": "px"
               },
               "iconProps": {
-                "color": "#fff",
+                "color": "var(--primary)",
                 "size": 16
               }
             },
             "hover": {
               "background": {
-                "color": "var(--primary-600)",
+                "color": "#F5F7FA",
                 "fillType": "fill"
               },
               "border": {
                 "type": "solid",
-                "width": "0px"
+                "color": "var(--primary)",
+                "width": "1px"
               },
               "text": {
-                "size": "15px",
-                "color": "var(--light)"
+                "color": "var(--primary)",
+                "size": "15px"
               },
               "borderRadius": {
                 "number": [
-                  100,
-                  100,
-                  100,
-                  100
+                  4,
+                  4,
+                  4,
+                  4
                 ],
                 "unit": "px"
               },
               "iconProps": {
-                "size": 14
+                "color": "var(--primary)",
+                "size": 16
               }
             }
           }
@@ -4914,7 +4998,7 @@
     "widget_411": {
       "uri": "widgets/common/button/",
       "version": "1.19.0",
-      "label": "Central – exibir no telão",
+      "label": "Central – Modo Tela Cheia",
       "id": "widget_411",
       "config": {
         "functionConfig": {
@@ -4927,17 +5011,17 @@
           },
           "icon": {
             "data": {
-              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 20 20\"><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M1.25 2.5h17.5v11.25H1.25zM0 2.5c0-.69.56-1.25 1.25-1.25h17.5c.69 0 1.25.56 1.25 1.25v11.25c0 .69-.56 1.25-1.25 1.25H1.25C.56 15 0 14.44 0 13.75zm3.75 16.25h2.5V17.5h-2.5zm7.5 0h-2.5V17.5h2.5zm2.5 0h2.5V17.5h-2.5z\" clip-rule=\"evenodd\"></path></svg>",
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 16 16\"><path fill=\"#000\" d=\"M0 1v14h16V1zm15 13H1V2h14zM9.644 6.65 12.246 4H11V3h3v3h-1V4.66l-2.644 2.69zM12.246 12 9.644 9.35l.712-.7L13 11.34V10h1v3h-3v-1zM3 6H2V3h3v1H3.753l2.603 2.65-.712.7L3 4.66zm2 7H2v-3h1v1.34l2.644-2.69.712.7L3.753 12H5z\"/></svg>",
               "properties": {
-                "filename": "WidgetSectionViewOutlined",
-                "originalName": "outlined/brand/widget-section-view.svg",
+                "filename": "full-screen",
+                "originalName": "calcite/full-screen-16.svg",
                 "path": [
-                  "brand",
-                  "WidgetSectionViewOutlined"
+                  "calcite",
+                  "full-screen"
                 ],
                 "inlineSvg": true,
                 "isUploaded": false,
-                "color": "var(--ref-palette-neutral-1100)"
+                "color": "#FFFFFF"
               }
             },
             "position": "LEFT"
@@ -4955,24 +5039,24 @@
               },
               "border": {
                 "type": "solid",
-                "color": "#076fe5",
-                "width": "0px"
+                "color": "var(--primary)",
+                "width": "1px"
               },
               "text": {
-                "color": "var(--light)",
+                "color": "#FFFFFF",
                 "size": "14px"
               },
               "borderRadius": {
                 "number": [
-                  100,
-                  100,
-                  100,
-                  100
+                  4,
+                  4,
+                  4,
+                  4
                 ],
                 "unit": "px"
               },
               "iconProps": {
-                "color": "#fff",
+                "color": "#FFFFFF",
                 "size": 16
               }
             },
@@ -4983,23 +5067,25 @@
               },
               "border": {
                 "type": "solid",
-                "width": "0px"
+                "color": "var(--primary-600)",
+                "width": "1px"
               },
               "text": {
-                "size": "14px",
-                "color": "var(--light)"
+                "color": "#FFFFFF",
+                "size": "14px"
               },
               "borderRadius": {
                 "number": [
-                  100,
-                  100,
-                  100,
-                  100
+                  4,
+                  4,
+                  4,
+                  4
                 ],
                 "unit": "px"
               },
               "iconProps": {
-                "size": 14
+                "color": "#FFFFFF",
+                "size": 16
               }
             }
           }
@@ -5116,10 +5202,10 @@
       "id": "widget_415",
       "uri": "widgets/common/button/",
       "version": "1.19.0",
-      "label": "Detalhe – 📍 Como chegar",
+      "label": "Detalhe – Como chegar",
       "config": {
         "functionConfig": {
-          "text": "📍 Como chegar",
+          "text": "Como chegar",
           "toolTip": "Abrir a rota até esta câmera no Google Maps (nova aba)",
           "linkParam": {
             "linkType": "WEB_ADDRESS",
@@ -5137,6 +5223,23 @@
                 }
               ]
             }
+          },
+          "icon": {
+            "data": {
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 16 16\"><path fill=\"#000\" d=\"M8 0a4.96 4.96 0 0 0-4.9 5.086C3.1 7.893 5.778 11.692 8 16c2.222-4.308 4.9-8.107 4.9-10.914A4.96 4.96 0 0 0 8 0m0 13.877c-.298-.543-.598-1.077-.89-1.6C5.561 9.514 4.1 6.906 4.1 5.085A3.954 3.954 0 0 1 8 1a3.954 3.954 0 0 1 3.9 4.086c0 1.82-1.462 4.429-3.01 7.19-.292.524-.592 1.058-.89 1.601M8 2.834A2.166 2.166 0 1 0 10.13 5 2.147 2.147 0 0 0 8 2.834m0 3.332A1.167 1.167 0 1 1 9.13 5 1.15 1.15 0 0 1 8 6.166\"/></svg>",
+              "properties": {
+                "filename": "pin-tear",
+                "originalName": "calcite/pin-tear-16.svg",
+                "path": [
+                  "calcite",
+                  "pin-tear"
+                ],
+                "inlineSvg": true,
+                "isUploaded": false,
+                "color": "var(--primary)"
+              }
+            },
+            "position": "LEFT"
           }
         },
         "styleConfig": {
@@ -5144,56 +5247,58 @@
           "customStyle": {
             "regular": {
               "background": {
-                "color": "var(--primary)",
+                "color": "#FFFFFF",
                 "fillType": "fill"
               },
               "border": {
                 "type": "solid",
-                "color": "#076fe5",
-                "width": "0px"
+                "color": "var(--primary)",
+                "width": "1px"
               },
               "text": {
-                "color": "var(--light)",
+                "color": "var(--primary)",
                 "size": "14px"
               },
               "borderRadius": {
                 "number": [
-                  100,
-                  100,
-                  100,
-                  100
+                  4,
+                  4,
+                  4,
+                  4
                 ],
                 "unit": "px"
               },
               "iconProps": {
-                "color": "#fff",
-                "size": 14
+                "color": "var(--primary)",
+                "size": 16
               }
             },
             "hover": {
               "background": {
-                "color": "var(--primary-600)",
+                "color": "#F5F7FA",
                 "fillType": "fill"
               },
               "border": {
                 "type": "solid",
-                "width": "0px"
+                "color": "var(--primary)",
+                "width": "1px"
               },
               "text": {
-                "size": "14px",
-                "color": "var(--light)"
+                "color": "var(--primary)",
+                "size": "14px"
               },
               "borderRadius": {
                 "number": [
-                  100,
-                  100,
-                  100,
-                  100
+                  4,
+                  4,
+                  4,
+                  4
                 ],
                 "unit": "px"
               },
               "iconProps": {
-                "size": 14
+                "color": "var(--primary)",
+                "size": 16
               }
             }
           }
@@ -6626,7 +6731,7 @@
       "index": 0
     }
   },
-  "timestamp": 1794587120714,
+  "timestamp": 1795626613000,
   "header": {
     "layout": {
       "LARGE": "layout_271"

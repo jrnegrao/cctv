@@ -11822,6 +11822,80 @@
     "group": 2
   },
   {
+    "name": "ficha-zona",
+    "manifest": {
+      "name": "ficha-zona",
+      "label": "Ficha da Zona",
+      "type": "widget",
+      "version": "1.19.0",
+      "exbVersion": "1.19.0",
+      "author": "GeoAPUC",
+      "description": "Clique no mapa e veja a ficha da zona: usos permitidos e tolerados, parâmetros de ocupação e lote mínimo.",
+      "copyright": "",
+      "license": "",
+      "dependency": [
+        "jimu-arcgis"
+      ],
+      "properties": {
+        "hasSettingPage": false
+      },
+      "translatedLocales": [
+        "en"
+      ],
+      "defaultSize": {
+        "width": 450,
+        "height": 700
+      }
+    },
+    "i18nLabel": {
+      "en": "Ficha da Zona"
+    },
+    "i18nDescription": {
+      "en": null
+    },
+    "uri": "widgets/ficha-zona/",
+    "icon": "widgets/ficha-zona/icon.svg",
+    "order": 700,
+    "group": 7
+  },
+  {
+    "name": "horarios-linha",
+    "manifest": {
+      "name": "horarios-linha",
+      "label": "Horários da Linha",
+      "type": "widget",
+      "version": "1.19.0",
+      "exbVersion": "1.19.0",
+      "author": "GeoAPUC",
+      "description": "Mostra a tabela de horários (dias úteis) da linha de ônibus selecionada na lista, com a próxima saída em destaque.",
+      "copyright": "",
+      "license": "",
+      "properties": {
+        "hasSettingPage": false
+      },
+      "translatedLocales": [
+        "en"
+      ],
+      "defaultSize": {
+        "width": 380,
+        "height": 560
+      },
+      "dependency": [
+        "jimu-arcgis"
+      ]
+    },
+    "i18nLabel": {
+      "en": "Horários da Linha"
+    },
+    "i18nDescription": {
+      "en": null
+    },
+    "uri": "widgets/horarios-linha/",
+    "icon": "widgets/horarios-linha/icon.svg",
+    "order": 700,
+    "group": 7
+  },
+  {
     "name": "placar-cameras",
     "manifest": {
       "name": "placar-cameras",
@@ -11852,6 +11926,40 @@
     },
     "uri": "widgets/placar-cameras/",
     "icon": "widgets/placar-cameras/icon.svg",
+    "order": 700,
+    "group": 7
+  },
+  {
+    "name": "servicos-passageiro",
+    "manifest": {
+      "name": "servicos-passageiro",
+      "label": "Serviços ao Passageiro",
+      "type": "widget",
+      "version": "1.19.0",
+      "exbVersion": "1.19.0",
+      "author": "GeoAPUC",
+      "description": "Informações e atalhos úteis ao passageiro (integração, app de horários, tarifas e recarga) no padrão visual dos widgets GeoAPUC.",
+      "copyright": "",
+      "license": "",
+      "properties": {
+        "hasSettingPage": false
+      },
+      "translatedLocales": [
+        "en"
+      ],
+      "defaultSize": {
+        "width": 380,
+        "height": 320
+      }
+    },
+    "i18nLabel": {
+      "en": "Serviços ao Passageiro"
+    },
+    "i18nDescription": {
+      "en": null
+    },
+    "uri": "widgets/servicos-passageiro/",
+    "icon": "widgets/servicos-passageiro/icon.svg",
     "order": 700,
     "group": 7
   },
