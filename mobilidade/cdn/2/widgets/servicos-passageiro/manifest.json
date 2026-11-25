@@ -1,0 +1,21 @@
+{
+  "name": "servicos-passageiro",
+  "label": "Serviços ao Passageiro",
+  "type": "widget",
+  "version": "1.19.0",
+  "exbVersion": "1.19.0",
+  "author": "GeoAPUC",
+  "description": "Informações e atalhos úteis ao passageiro (integração, app de horários, tarifas e recarga) no padrão visual dos widgets GeoAPUC.",
+  "copyright": "",
+  "license": "",
+  "properties": {
+    "hasSettingPage": false
+  },
+  "translatedLocales": [
+    "en"
+  ],
+  "defaultSize": {
+    "width": 380,
+    "height": 320
+  }
+}

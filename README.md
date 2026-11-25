@@ -12,6 +12,7 @@ Esta é uma versão provisória. A versão oficial será publicada em `geo.apuca
 
 Prévia, para validação, do app **Mobilidade Urbana** do GeoAPUC: linhas, horários (dias úteis), paradas e tempo real (Mobilibus).
 Acesso: https://jrnegrao.github.io/cctv/mobilidade/?locale=pt-br
+Versão atual: v2 (visual no padrão dos widgets dos desenvolvedores; painel Serviços ao Passageiro). A v1 fica guardada em `mobilidade/cdn/1`.
 
 ## Ordenamento Territorial (prévia)
 
